@@ -1,0 +1,38 @@
+[user]
+	name = Neal Kaviratna
+	email = nkaviratna@uber.com
+[core]
+	editor = nano
+[pull]
+	rebase = true
+[merge]
+	conflictstyle = diff3
+[alias]
+	fileschanged = diff HEAD^ HEAD --name-only
+	fc = diff HEAD^ HEAD --name-only
+	to = commit -a --amend --no-edit
+	tackon = commit -a --amend --no-edit
+	st = status
+	dt = difftool HEAD^ HEAD --no-prompt
+	temp = checkout temp
+	sd = branch --delete
+	safedelete = branch --delete
+	sami = clean -dn
+	druggedfox = clean -df
+	morning = commit -am \"temp\"
+	remessage = commit --amend
+	rip = reset HEAD~1 $1
+	ripout = reset HEAD~1 $1 && git checkout -- .
+	ro = reset HEAD~1
+	nored = checkout -- .
+	nogreen = reset HEAD .
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	cane = commit --amend --no-edit
+	cod = checkout `branch --contains HEAD --no-merged | head -1`
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge --skip %f
+	process = git-lfs filter-process --skip
+	required = true
+[push]
+	default = simple

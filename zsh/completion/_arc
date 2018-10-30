@@ -1,0 +1,4 @@
+#compdef arc
+
+_arguments "1: :(flow)"\
+    "2:Branches:(`git for-each-ref --format='%(refname)' refs/heads 2>/dev/null | sed 's=\<refs\/heads\>==g' | sed 's/^.//'`)"
