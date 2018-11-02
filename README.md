@@ -2,6 +2,11 @@
 
 Dotfile repository for nkaviratna
 
+## Prereqs
+
+install zsh: https://gist.github.com/derhuerst/12a1558a4b408b3b2b6e
+install git, bash if your distro doesn't have it already D:
+
 ## Setup
 
 1. clone repository to /home/nkaviratna/.dotfiles
