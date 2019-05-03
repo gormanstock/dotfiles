@@ -164,3 +164,4 @@ ssh-add -l | grep "The agent has no identities" && ssh-add
 
 
 export USIM2_COMMS_ROOT=/tmp/usim2_comms/
+source /home/nkaviratna/.opus/conf/opus_profile
