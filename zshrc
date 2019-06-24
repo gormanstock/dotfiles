@@ -9,6 +9,7 @@
 __git_commit_tags() {}
 __git_heads_remote() {}
 zstyle :completion::complete:git-checkout:argument-rest:headrefs command "git for-each-ref --format='%(refname)' refs/heads 2>/dev/null"
+zstyle :completion::complete:git-show:argument-rest:headrefs command "git for-each-ref --format='%(refname)' refs/heads 2>/dev/null"
 
 # Source Prezto.
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
@@ -39,3 +40,9 @@ export HADOOP_INSTALL=~/Programs/hadoop-2.8.1
 export UBER_LDAP_UID=nkaviratna
 export PATH=$PATH:$HADOOP_INSTALL/bin
 export JAVA_HOME=/usr/
+
+export ATC_SSH_AUTH_SOCK_CHECK=0
+export LINT_TIMEOUT=0
+
+export HISTSIZE=10000
+export HISEFILESIZE=10000
