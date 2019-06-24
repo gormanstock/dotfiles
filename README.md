@@ -17,9 +17,10 @@ Dotfile repository for nkaviratna
 5. apply zprezto patch to submodule
 6. run compaudit in zsh to ensure no permissions / ownership needs to change
 
-### Pre-existing file
+### Pre-existing files
 - rm ~/.bashrc
 - rm ~/.gitconfig
+- rm /home/nkaviratna/.zprezto/runcoms/zshrc
 
 ### Symlinks:
 - ln ~/.dotfiles/zshrc /home/nkaviratna/.zprezto/runcoms/zshrc -s && ls /home/nkaviratna/.zprezto/runcoms/zshrc -lsa
