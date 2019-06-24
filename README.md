@@ -11,9 +11,15 @@ Dotfile repository for nkaviratna
 ## Setup
 
 1. clone repository to /home/nkaviratna/.dotfiles
-2. create symlinks listed below
-3. apply zprezto patch to submodule
-4. run compaudit in zsh to ensure no permissions / ownership needs to change
+2. intiailize zprezto submodule
+3. remove pre-exisitng files listed below
+4. create symlinks listed below
+5. apply zprezto patch to submodule
+6. run compaudit in zsh to ensure no permissions / ownership needs to change
+
+### Pre-existing file
+- rm ~/.bashrc
+- rm ~/.gitconfig
 
 ### Symlinks:
 - ln ~/.dotfiles/zshrc /home/nkaviratna/.zprezto/runcoms/zshrc -s && ls /home/nkaviratna/.zprezto/runcoms/zshrc -lsa
