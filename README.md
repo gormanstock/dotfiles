@@ -24,6 +24,7 @@ Dotfile repository for nkaviratna
 
 ### Symlinks:
 - ln ~/.dotfiles/zshrc /home/nkaviratna/.zprezto/runcoms/zshrc -s && ls /home/nkaviratna/.zprezto/runcoms/zshrc -lsa
+- ln ~/.dotfiles/zshrc ~/.zshrc -s && ls ~/.zsh -lsa
 - ln ~/.dotfiles/zsh ~/.zsh -s && ls ~/.zsh -lsa
 - ln ~/.dotfiles/bashrc ~/.bashrc -s && ls ~/.bashrc -lsa
 - ln ~/.dotfiles/gitconfig ~/.gitconfig -s && ls ~/.gitconfig -lsa
