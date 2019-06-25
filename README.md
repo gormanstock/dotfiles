@@ -14,8 +14,7 @@ Dotfile repository for nkaviratna
 2. intiailize zprezto submodule
 3. remove pre-exisitng files listed below
 4. create symlinks listed below
-5. apply zprezto patch to submodule
-6. run compaudit in zsh to ensure no permissions / ownership needs to change
+5. run compaudit in zsh to ensure no permissions / ownership needs to change
 
 ### Pre-existing files
 - rm ~/.bashrc
