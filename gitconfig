@@ -19,7 +19,7 @@
 	safedelete = branch --delete
 	sami = clean -dn
 	druggedfox = clean -df
-	morning = commit -am \"temp\"
+	morning = commit -a
 	remessage = commit --amend
 	rip = reset HEAD~1 $1
 	ripout = reset HEAD~1 $1 && git checkout -- .
@@ -31,8 +31,8 @@
 	cod = checkout `branch --contains HEAD --no-merged | head -1`
 [filter "lfs"]
 	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge --skip %f
-	process = git-lfs filter-process --skip
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
 	required = true
 [push]
 	default = simple
