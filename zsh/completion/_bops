@@ -1,0 +1,5 @@
+#compdef bops
+
+_arguments "1: :(build)"\
+    "2:options:(--package-unreal --no-package-unreal)"\
+    "3:targets:(all)"
