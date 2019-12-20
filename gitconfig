@@ -36,3 +36,5 @@
 	required = true
 [push]
 	default = simple
+[help]
+	autocorrect = 20
