@@ -20,6 +20,7 @@ fi
 
 # non git aliases
 alias goodnight="git checkout master && git pull && arc cascade && ./rops build all"
+alias sai="EDITOR=nano ./tools/bonsai"
 
 #----------------------------------------------------------
 # COMPLETION SETTINGS

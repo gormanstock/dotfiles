@@ -4,12 +4,12 @@
 [core]
 	editor = nano
 [pull]
-	rebase = true
+	rebase = false
 [merge]
 	conflictstyle = diff3
 [alias]
 	fileschanged = diff HEAD^ HEAD --name-only
-	fc = diff HEAD^ HEAD --name-only
+	fc = diff  NealKaviratna/convert_to_slice master [ahead 3, be --name-only
 	to = commit -a --amend --no-edit
 	tackon = commit -a --amend --no-edit
 	st = status
