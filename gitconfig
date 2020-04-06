@@ -9,7 +9,7 @@
 	conflictstyle = diff3
 [alias]
 	fileschanged = diff HEAD^ HEAD --name-only
-	fc = diff  NealKaviratna/convert_to_slice master [ahead 3, be --name-only
+	fc = diff --name-only HEAD~1 HEAD
 	to = commit -a --amend --no-edit
 	tackon = commit -a --amend --no-edit
 	st = status
@@ -29,6 +29,7 @@
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 	cane = commit --amend --no-edit
 	cod = checkout `branch --contains HEAD --no-merged | head -1`
+	fcs = diff --name-only
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
