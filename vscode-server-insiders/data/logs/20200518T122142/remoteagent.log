@@ -1,0 +1,22 @@
+[2020-05-18 12:21:43.011] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2020-05-18 12:21:43.011] [remoteagent] [info] Extension host agent started.
+[2020-05-18 12:21:43.067] [remoteagent] [info] Deleted from disk davidanson.vscode-markdownlint /home/nkaviratna/.vscode-server-insiders/extensions/davidanson.vscode-markdownlint-0.35.1
+[2020-05-18 12:21:43.074] [remoteagent] [info] Deleted from disk ms-vsliveshare.vsliveshare /home/nkaviratna/.vscode-server-insiders/extensions/ms-vsliveshare.vsliveshare-1.0.2106
+[2020-05-18 12:21:43.587] [remoteagent] [info] [127.0.0.1][30f19d91][ManagementConnection] New connection established.
+[2020-05-18 12:21:43.611] [remoteagent] [info] [127.0.0.1][cfead6fd][ExtensionHostConnection] New connection established.
+[2020-05-18 12:21:43.769] [remoteagent] [info] [127.0.0.1][cfead6fd][ExtensionHostConnection] <7156> Launched Extension Host Process.
+[2020-05-18 12:22:01.292] [remoteagent] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2020-05-18 18:28:55.406] [remoteagent] [info] [127.0.0.1][30f19d91][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2020-05-18 21:28:47.443] [remoteagent] [info] [127.0.0.1][cfead6fd][ExtensionHostConnection] <7156> Extension Host Process exited with code: 0, signal: null.
+[2020-05-18 21:28:47.443] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2020-05-18 21:28:55.410] [remoteagent] [info] [127.0.0.1][30f19d91][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[2020-05-18 21:33:47.493] [remoteagent] [info] Last EH closed, shutting down

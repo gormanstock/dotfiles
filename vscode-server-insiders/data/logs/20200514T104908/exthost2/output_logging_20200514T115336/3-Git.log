@@ -1,0 +1,515 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/nkaviratna/na
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --global user.email
+> git check-ignore -v -z --stdin
+> git config --global user.name
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show -s --format=%an <%ae> [%ai] 84b790fc7fc5c0d070b54bad34db0a1582dee82b
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 84b790fc7fc5c0d070b54bad34db0a1582dee82b
+> git show -s --format=%an <%ae> [%ai] aef1a6d845915f89552be744a5a081690656c3cb
+> git show -s --format=%an <%ae> [%ai] 79c9fe672cbb8818b84a8e4d60a9c924ab7c652c
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 79c9fe672cbb8818b84a8e4d60a9c924ab7c652c
+> git show -s --format=%an <%ae> [%ai] e35e3fb3682f25dd16cc769eb5948f32b870bfbd
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z e35e3fb3682f25dd16cc769eb5948f32b870bfbd
+> git show -s --format=%an <%ae> [%ai] 437d0319895ac1c95762013f24c0f3208508db29
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z aef1a6d845915f89552be744a5a081690656c3cb
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 437d0319895ac1c95762013f24c0f3208508db29
+> git show -s --format=%an <%ae> [%ai] 337702d2360e5c2f7231ef1569c43d59db7d8b95
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 337702d2360e5c2f7231ef1569c43d59db7d8b95
+> git show -s --format=%an <%ae> [%ai] 2bb120b785b93644ba2320a6e5b6c75745b28800
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 2bb120b785b93644ba2320a6e5b6c75745b28800
+> git show -s --format=%an <%ae> [%ai] 307974330aeceee23e983df0caab5b9fe6d8bba6
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 307974330aeceee23e983df0caab5b9fe6d8bba6
+> git show -s --format=%an <%ae> [%ai] 250410e1414b045bf324cc118f2a94e05542c695
+> git show -s --format=%an <%ae> [%ai] f8b0ab78671ed94a4060fa6f35686657893ffa3d
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 250410e1414b045bf324cc118f2a94e05542c695
+> git show -s --format=%an <%ae> [%ai] a221a84afedd4c6daab2aa8a673b197de1af1926
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z a221a84afedd4c6daab2aa8a673b197de1af1926
+> git show -s --format=%an <%ae> [%ai] 07d5753c09164bae14c583b66d353ed3b177cf80
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z f8b0ab78671ed94a4060fa6f35686657893ffa3d
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 07d5753c09164bae14c583b66d353ed3b177cf80
+> git show -s --format=%an <%ae> [%ai] 82b7d57257a28fcc20450e644b0c27460b2e0cf4
+> git show -s --format=%an <%ae> [%ai] 4ce6e6205ca26184ac32392d6d017b424c2a94eb
+> git show -s --format=%an <%ae> [%ai] 0f5bfd7332ac05e7e666f33c0a83781679b9169e
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 4ce6e6205ca26184ac32392d6d017b424c2a94eb
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 82b7d57257a28fcc20450e644b0c27460b2e0cf4
+> git show -s --format=%an <%ae> [%ai] a6eff179fbfb81e0a4ad384dbf4850912a9c450d
+> git show -s --format=%an <%ae> [%ai] dc4242767212ca80da1b3b08deb000d73b0a68c4
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 0f5bfd7332ac05e7e666f33c0a83781679b9169e
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z dc4242767212ca80da1b3b08deb000d73b0a68c4
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z a6eff179fbfb81e0a4ad384dbf4850912a9c450d
+> git show :atg/simulation/usim/serialization/perception_sim.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/serialization/perception_sim.hh
+> git check-ignore -v -z --stdin
+> git cat-file -s 1ad72511ef17f3c0e99834f62c202ccd914bb4cf
+> git check-ignore -v -z --stdin
+> git show :atg/simulation/usim/protobuf/perception_sim.proto
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/protobuf/perception_sim.proto
+> git cat-file -s e01b3382f36d2cdf4044db11c5730ba925c07aef
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/protobuf/perception_sim.proto
+> git cat-file -s e01b3382f36d2cdf4044db11c5730ba925c07aef
+> git show :atg/simulation/usim/protobuf/perception_sim.proto
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :atg/simulation/usim/serialization/perception_sim.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/serialization/perception_sim.hh
+> git cat-file -s 1ad72511ef17f3c0e99834f62c202ccd914bb4cf
+> git show :atg/simulation/usim/protobuf/perception_sim.proto
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/protobuf/perception_sim.proto
+> git cat-file -s e01b3382f36d2cdf4044db11c5730ba925c07aef
+> git show :atg/simulation/usim/serialization/perception_sim.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/serialization/perception_sim.hh
+> git cat-file -s 1ad72511ef17f3c0e99834f62c202ccd914bb4cf
+> git show :atg/simulation/usim/protobuf/perception_sim.proto
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/protobuf/perception_sim.proto
+> git cat-file -s e01b3382f36d2cdf4044db11c5730ba925c07aef
+> git show :atg/simulation/usim/serialization/perception_sim.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/serialization/perception_sim.hh
+> git cat-file -s 1ad72511ef17f3c0e99834f62c202ccd914bb4cf
+> git show :atg/simulation/usim/protobuf/perception_sim.proto
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/protobuf/perception_sim.proto
+> git cat-file -s e01b3382f36d2cdf4044db11c5730ba925c07aef
+> git show :atg/simulation/usim/serialization/perception_sim.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/serialization/perception_sim.hh
+> git cat-file -s 1ad72511ef17f3c0e99834f62c202ccd914bb4cf
+> git show :atg/simulation/usim/protobuf/perception_sim.proto
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/protobuf/perception_sim.proto
+> git cat-file -s e01b3382f36d2cdf4044db11c5730ba925c07aef
+> git check-ignore -v -z --stdin
+> git show :atg/simulation/usim/serialization/perception_sim.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/serialization/perception_sim.hh
+> git cat-file -s 1ad72511ef17f3c0e99834f62c202ccd914bb4cf
+> git show :atg/simulation/usim/protobuf/perception_sim.proto
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/protobuf/perception_sim.proto
+> git cat-file -s e01b3382f36d2cdf4044db11c5730ba925c07aef
+> git show :atg/simulation/usim/serialization/perception_sim.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/serialization/perception_sim.hh
+> git cat-file -s 1ad72511ef17f3c0e99834f62c202ccd914bb4cf
+> git show :atg/simulation/usim/protobuf/perception_sim.proto
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/protobuf/perception_sim.proto
+> git cat-file -s e01b3382f36d2cdf4044db11c5730ba925c07aef
+> git show :atg/labeling/proto/extraction/v1/extraction_api.proto
+> git ls-files --stage -- /home/nkaviratna/na/atg/labeling/proto/extraction/v1/extraction_api.proto
+> git cat-file -s b77b26661c29a2b15c0e10184cacfec764f10a67
+> git check-ignore -v -z --stdin
+> git show :atg/simulation/usim/protobuf/perception_sim.proto
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/protobuf/perception_sim.proto
+> git cat-file -s e01b3382f36d2cdf4044db11c5730ba925c07aef
+> git show :atg/simulation/usim/serialization/perception_sim.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/serialization/perception_sim.hh
+> git cat-file -s 1ad72511ef17f3c0e99834f62c202ccd914bb4cf
+> git show :atg/simulation/usim/protobuf/perception_sim.proto
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/protobuf/perception_sim.proto
+> git cat-file -s e01b3382f36d2cdf4044db11c5730ba925c07aef
+> git show :atg/simulation/usim/serialization/perception_sim.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/serialization/perception_sim.hh
+> git cat-file -s 1ad72511ef17f3c0e99834f62c202ccd914bb4cf
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/serialization/perception_sim.hh
+> git cat-file -s 1ad72511ef17f3c0e99834f62c202ccd914bb4cf
+> git show :atg/simulation/usim/serialization/perception_sim.hh
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/serialization/perception_sim.hh
+> git cat-file -s 1ad72511ef17f3c0e99834f62c202ccd914bb4cf
+> git show :atg/simulation/usim/serialization/perception_sim.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/serialization/perception_sim.hh
+> git cat-file -s 1ad72511ef17f3c0e99834f62c202ccd914bb4cf
+> git show :atg/simulation/usim/serialization/perception_sim.hh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/serialization/perception_sim.hh
+> git cat-file -s 1ad72511ef17f3c0e99834f62c202ccd914bb4cf
+> git show :atg/simulation/usim/serialization/perception_sim.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/serialization/perception_sim.hh
+> git cat-file -s 1ad72511ef17f3c0e99834f62c202ccd914bb4cf
+> git show :atg/simulation/usim/serialization/perception_sim.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/serialization/perception_sim.hh
+> git cat-file -s 1ad72511ef17f3c0e99834f62c202ccd914bb4cf
+> git show :atg/simulation/usim/serialization/perception_sim.hh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/serialization/perception_sim.hh
+> git cat-file -s 1ad72511ef17f3c0e99834f62c202ccd914bb4cf
+> git show :atg/simulation/usim/serialization/perception_sim.hh
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/serialization/perception_sim.hh
+> git cat-file -s 1ad72511ef17f3c0e99834f62c202ccd914bb4cf
+> git show :atg/simulation/usim/serialization/perception_sim.hh
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :atg/simulation/usim/protobuf/perception_sim.proto
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/protobuf/perception_sim.proto
+> git cat-file -s e01b3382f36d2cdf4044db11c5730ba925c07aef
+> git show :atg/simulation/usim/serialization/perception_sim.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/serialization/perception_sim.hh
+> git cat-file -s 1ad72511ef17f3c0e99834f62c202ccd914bb4cf
+> git show :atg/simulation/usim/protobuf/perception_sim.proto
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/protobuf/perception_sim.proto
+> git cat-file -s e01b3382f36d2cdf4044db11c5730ba925c07aef
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/nkaviratna/na/atg/simulation/usim/protobuf/perception_sim.proto
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n41 -- /home/nkaviratna/na/atg/simulation/usim/protobuf/perception_sim.proto
+> git show :atg/simulation/usim/serialization/perception_sim.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/serialization/perception_sim.hh
+> git cat-file -s 1ad72511ef17f3c0e99834f62c202ccd914bb4cf
+> git check-ignore -v -z --stdin
+> git show :atg/simulation/usim/serialization/test/perception_sim_test.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/serialization/test/perception_sim_test.cc
+> git cat-file -s ed4bb833ab7d399a2b84610fdce551826f9ba9f6
+> git show :atg/simulation/usim/serialization/test/messages_test.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/serialization/test/messages_test.cc
+> git cat-file -s 66fede23226e5ec84a5b87ab4300c8991116a540
+> git show :atg/simulation/usim/serialization/test/perception_sim_test.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/serialization/test/perception_sim_test.cc
+> git cat-file -s ed4bb833ab7d399a2b84610fdce551826f9ba9f6
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/protobuf/perception_sim.proto
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/serialization/test/perception_sim_test.cc
+> git cat-file -s e01b3382f36d2cdf4044db11c5730ba925c07aef
+> git cat-file -s ed4bb833ab7d399a2b84610fdce551826f9ba9f6
+> git show :atg/simulation/usim/protobuf/perception_sim.proto
+> git show :atg/simulation/usim/serialization/test/perception_sim_test.cc
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :atg/simulation/usim/serialization/perception_sim.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/serialization/perception_sim.hh
+> git cat-file -s 1ad72511ef17f3c0e99834f62c202ccd914bb4cf
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/serialization/perception_sim.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/protobuf/perception_sim.proto
+> git cat-file -s 1ad72511ef17f3c0e99834f62c202ccd914bb4cf
+> git cat-file -s e01b3382f36d2cdf4044db11c5730ba925c07aef
+> git show :atg/simulation/usim/serialization/perception_sim.hh
+> git show :atg/simulation/usim/protobuf/perception_sim.proto
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/serialization/perception_sim.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/protobuf/perception_sim.proto
+> git cat-file -s 1ad72511ef17f3c0e99834f62c202ccd914bb4cf
+> git cat-file -s e01b3382f36d2cdf4044db11c5730ba925c07aef
+> git show :atg/simulation/usim/serialization/perception_sim.hh
+> git show :atg/simulation/usim/protobuf/perception_sim.proto
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/serialization/perception_sim.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/protobuf/perception_sim.proto
+> git cat-file -s 1ad72511ef17f3c0e99834f62c202ccd914bb4cf
+> git cat-file -s e01b3382f36d2cdf4044db11c5730ba925c07aef
+> git show :atg/simulation/usim/serialization/perception_sim.hh
+> git show :atg/simulation/usim/protobuf/perception_sim.proto
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :atg/simulation/usim/serialization/test/perception_sim_test.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/serialization/test/perception_sim_test.cc
+> git cat-file -s ed4bb833ab7d399a2b84610fdce551826f9ba9f6
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/protobuf/perception_sim.proto
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/serialization/test/perception_sim_test.cc
+> git cat-file -s e01b3382f36d2cdf4044db11c5730ba925c07aef
+> git cat-file -s ed4bb833ab7d399a2b84610fdce551826f9ba9f6
+> git show :atg/simulation/usim/protobuf/perception_sim.proto
+> git show :atg/simulation/usim/serialization/test/perception_sim_test.cc
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :atg/simulation/usim/serialization/perception_sim.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/serialization/perception_sim.hh
+> git cat-file -s 1ad72511ef17f3c0e99834f62c202ccd914bb4cf
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/serialization/perception_sim.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/protobuf/perception_sim.proto
+> git cat-file -s 1ad72511ef17f3c0e99834f62c202ccd914bb4cf
+> git cat-file -s e01b3382f36d2cdf4044db11c5730ba925c07aef
+> git show :atg/simulation/usim/serialization/perception_sim.hh
+> git show :atg/simulation/usim/protobuf/perception_sim.proto
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/serialization/perception_sim.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/protobuf/perception_sim.proto
+> git cat-file -s 1ad72511ef17f3c0e99834f62c202ccd914bb4cf
+> git cat-file -s e01b3382f36d2cdf4044db11c5730ba925c07aef
+> git show :atg/simulation/usim/serialization/perception_sim.hh
+> git show :atg/simulation/usim/protobuf/perception_sim.proto
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/serialization/perception_sim.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/protobuf/perception_sim.proto
+> git cat-file -s 1ad72511ef17f3c0e99834f62c202ccd914bb4cf
+> git cat-file -s e01b3382f36d2cdf4044db11c5730ba925c07aef
+> git show :atg/simulation/usim/serialization/perception_sim.hh
+> git show :atg/simulation/usim/protobuf/perception_sim.proto
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/serialization/perception_sim.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/protobuf/perception_sim.proto
+> git cat-file -s 1ad72511ef17f3c0e99834f62c202ccd914bb4cf
+> git cat-file -s e01b3382f36d2cdf4044db11c5730ba925c07aef
+> git show :atg/simulation/usim/serialization/perception_sim.hh
+> git show :atg/simulation/usim/protobuf/perception_sim.proto
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/serialization/perception_sim.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/protobuf/perception_sim.proto
+> git cat-file -s 1ad72511ef17f3c0e99834f62c202ccd914bb4cf
+> git cat-file -s e01b3382f36d2cdf4044db11c5730ba925c07aef
+> git show :atg/simulation/usim/serialization/perception_sim.hh
+> git show :atg/simulation/usim/protobuf/perception_sim.proto
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/serialization/perception_sim.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/protobuf/perception_sim.proto
+> git cat-file -s 1ad72511ef17f3c0e99834f62c202ccd914bb4cf
+> git cat-file -s e01b3382f36d2cdf4044db11c5730ba925c07aef
+> git show :atg/simulation/usim/serialization/perception_sim.hh
+> git show :atg/simulation/usim/protobuf/perception_sim.proto
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/serialization/perception_sim.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/protobuf/perception_sim.proto
+> git cat-file -s 1ad72511ef17f3c0e99834f62c202ccd914bb4cf
+> git cat-file -s e01b3382f36d2cdf4044db11c5730ba925c07aef
+> git show :atg/simulation/usim/serialization/perception_sim.hh
+> git show :atg/simulation/usim/protobuf/perception_sim.proto
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/serialization/perception_sim.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/protobuf/perception_sim.proto
+> git cat-file -s 1ad72511ef17f3c0e99834f62c202ccd914bb4cf
+> git cat-file -s e01b3382f36d2cdf4044db11c5730ba925c07aef
+> git show :atg/simulation/usim/serialization/perception_sim.hh
+> git show :atg/simulation/usim/protobuf/perception_sim.proto
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/serialization/perception_sim.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/protobuf/perception_sim.proto
+> git cat-file -s 1ad72511ef17f3c0e99834f62c202ccd914bb4cf
+> git cat-file -s e01b3382f36d2cdf4044db11c5730ba925c07aef
+> git show :atg/simulation/usim/serialization/perception_sim.hh
+> git show :atg/simulation/usim/protobuf/perception_sim.proto
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/serialization/perception_sim.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/protobuf/perception_sim.proto
+> git cat-file -s 1ad72511ef17f3c0e99834f62c202ccd914bb4cf
+> git cat-file -s e01b3382f36d2cdf4044db11c5730ba925c07aef
+> git show :atg/simulation/usim/serialization/perception_sim.hh
+> git show :atg/simulation/usim/protobuf/perception_sim.proto
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template

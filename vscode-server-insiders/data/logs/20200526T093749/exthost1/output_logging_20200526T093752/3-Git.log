@@ -1,0 +1,401 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/nkaviratna/na
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_high_res_off_to_docs
+> git rev-parse --symbolic-full-name NealKaviratna/add_high_res_off_to_docs@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git config --get commit.template
+> git config --global user.email
+> git config --global user.name
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_high_res_off_to_docs
+> git rev-parse --symbolic-full-name NealKaviratna/add_high_res_off_to_docs@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show -s --format=%an <%ae> [%ai] 6af78665201c0ce22b5c6f581b91306320a859bc
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 6af78665201c0ce22b5c6f581b91306320a859bc
+> git show -s --format=%an <%ae> [%ai] da67ade0fa4e107ea4e320efa2c5e873006ec3af
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z da67ade0fa4e107ea4e320efa2c5e873006ec3af
+> git show -s --format=%an <%ae> [%ai] ff5ee98d03715b29a8a71209d476bea24bb9a051
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z ff5ee98d03715b29a8a71209d476bea24bb9a051
+> git show -s --format=%an <%ae> [%ai] a5993ebaa8863e6b8c8328e9c947b75e1bbe1623
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z a5993ebaa8863e6b8c8328e9c947b75e1bbe1623
+> git show -s --format=%an <%ae> [%ai] ebe971e0fcfc9577a97ab548a17c4d8b4151e351
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z ebe971e0fcfc9577a97ab548a17c4d8b4151e351
+> git show -s --format=%an <%ae> [%ai] 11a24d46588189e8d0507844186451e8f78a07d5
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 11a24d46588189e8d0507844186451e8f78a07d5
+> git show -s --format=%an <%ae> [%ai] fe0a8ed62945a5ec0ae7e45c367da303cb7b7ad9
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z fe0a8ed62945a5ec0ae7e45c367da303cb7b7ad9
+> git show -s --format=%an <%ae> [%ai] 1adc80ded493276d4298ca67c032370c2a49a04b
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 1adc80ded493276d4298ca67c032370c2a49a04b
+> git show -s --format=%an <%ae> [%ai] e157b492f1b574e8770273d06247c32b789b6fd8
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z e157b492f1b574e8770273d06247c32b789b6fd8
+> git show -s --format=%an <%ae> [%ai] 7ff42d7372faba8aa8325021d0d3dbe2bc26464f
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 7ff42d7372faba8aa8325021d0d3dbe2bc26464f
+> git show -s --format=%an <%ae> [%ai] e77c707bf9a0efe7ca2eec5d47ab988ba985d926
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z e77c707bf9a0efe7ca2eec5d47ab988ba985d926
+> git show -s --format=%an <%ae> [%ai] 436c8f33fc233c1309d0acc5afd819db92266a23
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 436c8f33fc233c1309d0acc5afd819db92266a23
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_high_res_off_to_docs
+> git rev-parse --symbolic-full-name NealKaviratna/add_high_res_off_to_docs@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_high_res_off_to_docs
+> git rev-parse --symbolic-full-name NealKaviratna/add_high_res_off_to_docs@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :atg/platform/xenon/perception_prediction_logsim/perception_prediction_logsim.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/platform/xenon/perception_prediction_logsim/perception_prediction_logsim.cc
+> git check-ignore -v -z --stdin
+> git cat-file -s e09bfc1a56a0470616008bba6fe3eb2c23187f41
+> git check-ignore -v -z --stdin
+> git show :atg/platform/xenon/usim/usim.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/platform/xenon/usim/usim.cc
+> git cat-file -s d22777303d650286a5ddac1e4798ec83d48dd032
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :atg/perception_prediction/axl_impl/subgraph_usim.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/perception_prediction/axl_impl/subgraph_usim.hh
+> git cat-file -s 7a4318d90195687c4151454354a937095561b7c8
+> git check-ignore -v -z --stdin
+> git show :atg/perception_prediction/axl_impl/subgraph_usim.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/perception_prediction/axl_impl/subgraph_usim.cc
+> git cat-file -s 6d0e9afa9db8f456cdef6e945582a43ac18f100a
+> git check-ignore -v -z --stdin
+> git show :atg/platform/xenon/perception_prediction_planning_vehicle_logsim/perception_prediction_planning_vehicle_logsim.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/platform/xenon/perception_prediction_planning_vehicle_logsim/perception_prediction_planning_vehicle_logsim.cc
+> git cat-file -s 5b325067e0360ec83892862bce92bbdc0bc61f59
+> git check-ignore -v -z --stdin
+> git show :atg/simulation/metrics/pipelines/gating_pipelines.yml
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/metrics/pipelines/gating_pipelines.yml
+> git cat-file -s 5a66d09ecad91046615530382982fddcf07a5e36
+> git check-ignore -v -z --stdin
+> git show :atg/platform/xenon/perception_prediction_planning_vehicle_logsim/perception_prediction_planning_vehicle_logsim.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/platform/xenon/perception_prediction_planning_vehicle_logsim/perception_prediction_planning_vehicle_logsim.cc
+> git cat-file -s 5b325067e0360ec83892862bce92bbdc0bc61f59
+> git show :atg/perception_prediction/trajectory_fusion/trajectory_fusion.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/perception_prediction/trajectory_fusion/trajectory_fusion.cc
+> git cat-file -s 0aa092e10801f2215fb999f6c9c3e794368cca1a
+> git check-ignore -v -z --stdin
+> git show :atg/perception_prediction/axl_impl/subgraph_base.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/perception_prediction/axl_impl/subgraph_base.cc
+> git cat-file -s 23c68adafb05428abf1bf1b35bf2bccf4e865684
+> git check-ignore -v -z --stdin
+> git show :atg/perception_prediction/trajectory_fusion/axl_impl/subgraph.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/perception_prediction/trajectory_fusion/axl_impl/subgraph.cc
+> git cat-file -s 57cc105a127db40ab76fb45db40ede1594b51a90
+> git check-ignore -v -z --stdin
+> git show :atg/perception_prediction/axl_impl/subgraph_base.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/perception_prediction/axl_impl/subgraph_base.cc
+> git cat-file -s 23c68adafb05428abf1bf1b35bf2bccf4e865684
+> git show :atg/perception_prediction/trajectory_fusion/axl_impl/subgraph.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/perception_prediction/trajectory_fusion/axl_impl/subgraph.cc
+> git cat-file -s 57cc105a127db40ab76fb45db40ede1594b51a90
+> git show :atg/perception_prediction/axl_impl/subgraph_base.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/perception_prediction/axl_impl/subgraph_base.cc
+> git cat-file -s 23c68adafb05428abf1bf1b35bf2bccf4e865684
+> git show :atg/perception_prediction/goal_based_prediction/axl_impl/subgraph.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/perception_prediction/goal_based_prediction/axl_impl/subgraph.cc
+> git cat-file -s a9d6c405f2bb5c68bafd7df71f97ae240be49a28
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/perception_prediction/goal_based_prediction/axl_impl/subgraph.cc
+> git cat-file -s a9d6c405f2bb5c68bafd7df71f97ae240be49a28
+> git show :atg/perception_prediction/goal_based_prediction/axl_impl/subgraph.cc
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :atg/perception_prediction/axl_impl/subgraph_base.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/perception_prediction/axl_impl/subgraph_base.cc
+> git cat-file -s 23c68adafb05428abf1bf1b35bf2bccf4e865684
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/perception_prediction/axl_impl/subgraph_base.cc
+> git cat-file -s 4d8e572a79954264d8017a1f6dd598a86abbb3b5
+> git show :atg/perception_prediction/axl_impl/subgraph_base.cc
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_high_res_off_to_docs
+> git rev-parse --symbolic-full-name NealKaviratna/add_high_res_off_to_docs@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/nkaviratna/na/atg/perception_prediction/axl_impl/subgraph_base.cc
+> git cat-file -s 23c68adafb05428abf1bf1b35bf2bccf4e865684
+> git show :atg/perception_prediction/axl_impl/subgraph_base.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/perception_prediction/axl_impl/subgraph_base.cc
+> git cat-file -s 4d8e572a79954264d8017a1f6dd598a86abbb3b5
+> git show :atg/perception_prediction/axl_impl/subgraph_base.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/perception_prediction/axl_impl/subgraph_base.cc
+> git cat-file -s 4d8e572a79954264d8017a1f6dd598a86abbb3b5
+> git show :atg/perception_prediction/axl_impl/subgraph_base.cc
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/skunk_camera
+> git rev-parse --symbolic-full-name NealKaviratna/skunk_camera@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git ls-files --stage -- /home/nkaviratna/na/atg/perception_prediction/axl_impl/subgraph_base.cc
+> git cat-file -s 23c68adafb05428abf1bf1b35bf2bccf4e865684
+> git show :atg/perception_prediction/axl_impl/subgraph_base.cc
+> git config --get commit.template
+> git ls-files --stage -- /home/nkaviratna/na/atg/perception_prediction/axl_impl/subgraph_base.cc
+> git cat-file -s 4d8e572a79954264d8017a1f6dd598a86abbb3b5
+> git show :atg/perception_prediction/axl_impl/subgraph_base.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/perception_prediction/axl_impl/subgraph_base.cc
+> git cat-file -s 4d8e572a79954264d8017a1f6dd598a86abbb3b5
+> git show :atg/perception_prediction/axl_impl/subgraph_base.cc
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/skunk_camera
+> git rev-parse --symbolic-full-name NealKaviratna/skunk_camera@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/perception_prediction/axl_impl/subgraph_base.cc
+> git cat-file -s 4d8e572a79954264d8017a1f6dd598a86abbb3b5
+> git show :atg/perception_prediction/axl_impl/subgraph_base.cc
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :atg/platform/xenon/perception_prediction_planning_vehicle_logsim/perception_prediction_planning_vehicle_logsim.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/platform/xenon/perception_prediction_planning_vehicle_logsim/perception_prediction_planning_vehicle_logsim.cc
+> git cat-file -s 5b325067e0360ec83892862bce92bbdc0bc61f59
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :atg/platform/xenon/perception_prediction_planning_vehicle_logsim/log_reader_factory.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/platform/xenon/perception_prediction_planning_vehicle_logsim/log_reader_factory.hh
+> git cat-file -s c7790a7c66da4b6a004338a9ad38a5bb94b4d3eb
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/platform/xenon/perception_prediction_planning_vehicle_logsim/log_reader_factory.hh
+> git cat-file -s c7790a7c66da4b6a004338a9ad38a5bb94b4d3eb
+> git show :atg/platform/xenon/perception_prediction_planning_vehicle_logsim/log_reader_factory.hh
+> git symbolic-ref --short HEAD
+> git rev-parse maitken/black_image_generator
+> git rev-parse --symbolic-full-name maitken/black_image_generator@{u}
+> git rev-list --left-right maitken/black_image_generator...refs/remotes/origin/maitken/black_image_generator
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse maitken/black_image_generator
+> git rev-parse --symbolic-full-name maitken/black_image_generator@{u}
+> git rev-list --left-right maitken/black_image_generator...refs/remotes/origin/maitken/black_image_generator
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/nkaviratna/na/atg/platform/xenon/perception_prediction_planning_vehicle_logsim/log_reader_factory.hh
+> git cat-file -s c7790a7c66da4b6a004338a9ad38a5bb94b4d3eb
+> git show :atg/platform/xenon/perception_prediction_planning_vehicle_logsim/log_reader_factory.hh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse maitken/black_image_generator
+> git rev-parse --symbolic-full-name maitken/black_image_generator@{u}
+> git rev-list --left-right maitken/black_image_generator...refs/remotes/origin/maitken/black_image_generator
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/platform/xenon/perception_prediction_planning_vehicle_logsim/log_reader_factory.hh
+> git cat-file -s c7790a7c66da4b6a004338a9ad38a5bb94b4d3eb
+> git show :atg/platform/xenon/perception_prediction_planning_vehicle_logsim/log_reader_factory.hh
+> git symbolic-ref --short HEAD
+> git rev-parse maitken/black_image_generator
+> git rev-parse --symbolic-full-name maitken/black_image_generator@{u}
+> git rev-list --left-right maitken/black_image_generator...refs/remotes/origin/maitken/black_image_generator
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse maitken/black_image_generator
+> git rev-parse --symbolic-full-name maitken/black_image_generator@{u}
+> git rev-list --left-right maitken/black_image_generator...refs/remotes/origin/maitken/black_image_generator
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/platform/xenon/perception_prediction_planning_vehicle_logsim/log_reader_factory.hh
+> git cat-file -s c7790a7c66da4b6a004338a9ad38a5bb94b4d3eb
+> git show :atg/platform/xenon/perception_prediction_planning_vehicle_logsim/log_reader_factory.hh
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/nkaviratna/na/atg/platform/xenon/perception_prediction_planning_vehicle_logsim/log_reader_factory.hh
+> git cat-file -s c7790a7c66da4b6a004338a9ad38a5bb94b4d3eb
+> git show :atg/platform/xenon/perception_prediction_planning_vehicle_logsim/log_reader_factory.hh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :atg/perception_prediction/axl_impl/subgraph_base.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/perception_prediction/axl_impl/subgraph_base.cc
+> git cat-file -s 4d8e572a79954264d8017a1f6dd598a86abbb3b5
+> git check-ignore -v -z --stdin
+> git show :atg/platform/xenon/sensor_sim/sensor_sim.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/platform/xenon/sensor_sim/sensor_sim.cc
+> git cat-file -s afebfc6ebd6f6caaf4ec853358ac66d5aeababf5
+> git check-ignore -v -z --stdin
+> git show :atg/platform/xenon/perception_prediction_planning_vehicle_logsim/perception_prediction_planning_vehicle_logsim.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/platform/xenon/perception_prediction_planning_vehicle_logsim/perception_prediction_planning_vehicle_logsim.cc
+> git cat-file -s 5b325067e0360ec83892862bce92bbdc0bc61f59
+> git show :atg/platform/xenon/sensor_sim/sensor_sim.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/platform/xenon/sensor_sim/sensor_sim.cc
+> git cat-file -s afebfc6ebd6f6caaf4ec853358ac66d5aeababf5
+> git show :atg/vehicle/axl_impl/subgraph.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/vehicle/axl_impl/subgraph.hh
+> git cat-file -s 6241aa925dae729acdf06813f87a0b554a88c0bf
+> git check-ignore -v -z --stdin
+> git show :atg/platform/xenon/perception_prediction_planning_vehicle_logsim/perception_prediction_planning_vehicle_logsim.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/platform/xenon/perception_prediction_planning_vehicle_logsim/perception_prediction_planning_vehicle_logsim.cc
+> git cat-file -s 5b325067e0360ec83892862bce92bbdc0bc61f59
+> git show :atg/simulation/sensor/utils/csv_to_slice_graph.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/sensor/utils/csv_to_slice_graph.cc
+> git cat-file -s 54ee831c69a86bc24b7570792d6af48b4077b5c4
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :atg/platform/xenon/perception_prediction_planning_vehicle_logsim/perception_prediction_planning_vehicle_logsim.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/platform/xenon/perception_prediction_planning_vehicle_logsim/perception_prediction_planning_vehicle_logsim.cc
+> git cat-file -s 5b325067e0360ec83892862bce92bbdc0bc61f59
+> git show :atg/vehicle/state.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/vehicle/state.hh
+> git cat-file -s 2a171cf94119e1d7c2cbadd59626f5e36d6ceca7
+> git check-ignore -v -z --stdin
+> git show :atg/platform/xenon/usim/usim.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/platform/xenon/usim/usim.cc
+> git cat-file -s 12c3022f5a64c2748b9e7d22108c841b18bd2907
+> git show :atg/perception_prediction/axl_impl/subgraph_usim.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/perception_prediction/axl_impl/subgraph_usim.hh
+> git cat-file -s c060f60b789c996f98a1f5e05b8110763db59807
+> git show :atg/perception_prediction/axl_impl/subgraph_usim.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/perception_prediction/axl_impl/subgraph_usim.cc
+> git cat-file -s c2ac4c9379a14e14208625fe900c431cc8d8af05
+> git show :atg/platform/xenon/planning_vehicle_simple_sim/planning_vehicle_simple_sim.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/platform/xenon/planning_vehicle_simple_sim/planning_vehicle_simple_sim.cc
+> git cat-file -s 8e6bfb793a48acf47ef8f434139530de08562d99
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :atg/platform/xenon/planning_vehicle_simple_sim/subgraph.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/platform/xenon/planning_vehicle_simple_sim/subgraph.hh
+> git cat-file -s c58539180a12750d23ab26c17f399336d4850212
+> git show :atg/simulation/sensor/hdl64e/hdl64e.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/sensor/hdl64e/hdl64e.hh
+> git cat-file -s 87815729399e2ffc106141a42341ca7df418e8a0
+> git check-ignore -v -z --stdin
+> git show :atg/platform/xenon/planning_vehicle_simple_sim/planning_vehicle_simple_sim.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/platform/xenon/planning_vehicle_simple_sim/planning_vehicle_simple_sim.cc
+> git cat-file -s 8e6bfb793a48acf47ef8f434139530de08562d99
+> git show :atg/simulation/sensor/hdl64e/hdl64e.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/sensor/hdl64e/hdl64e.hh
+> git cat-file -s 87815729399e2ffc106141a42341ca7df418e8a0
+> git show :atg/vehicle/axl_impl/subgraph.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/vehicle/axl_impl/subgraph.hh
+> git cat-file -s 6241aa925dae729acdf06813f87a0b554a88c0bf
+> git check-ignore -v -z --stdin
+> git show :atg/simulation/sensor/hdl64e/hdl64e.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/sensor/hdl64e/hdl64e.hh
+> git cat-file -s 87815729399e2ffc106141a42341ca7df418e8a0
+> git show :atg/platform/xenon/planning_vehicle_simple_sim/planning_vehicle_simple_sim.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/platform/xenon/planning_vehicle_simple_sim/planning_vehicle_simple_sim.cc
+> git cat-file -s 8e6bfb793a48acf47ef8f434139530de08562d99
+> git show :atg/perception_prediction/axl_impl/subgraph_usim.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/perception_prediction/axl_impl/subgraph_usim.cc
+> git cat-file -s c2ac4c9379a14e14208625fe900c431cc8d8af05
+> git check-ignore -v -z --stdin
+> git show :atg/platform/xenon/usim/usim.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/platform/xenon/usim/usim.cc
+> git cat-file -s 12c3022f5a64c2748b9e7d22108c841b18bd2907
+> git show :atg/platform/xenon/perception_prediction_planning_vehicle_logsim/perception_prediction_planning_vehicle_logsim.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/platform/xenon/perception_prediction_planning_vehicle_logsim/perception_prediction_planning_vehicle_logsim.cc
+> git cat-file -s 5b325067e0360ec83892862bce92bbdc0bc61f59
+> git show :atg/perception_prediction/axl_impl/subgraph_base.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/perception_prediction/axl_impl/subgraph_base.cc
+> git cat-file -s 4d8e572a79954264d8017a1f6dd598a86abbb3b5
+> git show :atg/platform/xenon/perception_prediction_planning_vehicle_logsim/log_reader_factory.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/platform/xenon/perception_prediction_planning_vehicle_logsim/log_reader_factory.hh
+> git cat-file -s c7790a7c66da4b6a004338a9ad38a5bb94b4d3eb
+> git show :atg/perception_prediction/goal_based_prediction/axl_impl/subgraph.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/perception_prediction/goal_based_prediction/axl_impl/subgraph.cc
+> git cat-file -s a9d6c405f2bb5c68bafd7df71f97ae240be49a28
+> git show :atg/perception_prediction/trajectory_fusion/axl_impl/subgraph.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/perception_prediction/trajectory_fusion/axl_impl/subgraph.cc
+> git cat-file -s 57cc105a127db40ab76fb45db40ede1594b51a90
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template

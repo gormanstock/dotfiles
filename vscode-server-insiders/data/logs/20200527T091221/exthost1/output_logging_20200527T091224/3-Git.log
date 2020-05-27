@@ -1,0 +1,52 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/nkaviratna/na
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git config --get commit.template
+> git config --global user.email
+> git config --global user.name
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show -s --format=%an <%ae> [%ai] f94ee4caa358abad2ccd726586582bd498735511
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z f94ee4caa358abad2ccd726586582bd498735511
+> git show -s --format=%an <%ae> [%ai] 5c508c08d61a4bdab55a57811ae5a1690947d38e
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 5c508c08d61a4bdab55a57811ae5a1690947d38e
+> git show -s --format=%an <%ae> [%ai] 6f9f85150b0bc707d607180e9031c83a5b687839
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 6f9f85150b0bc707d607180e9031c83a5b687839
+> git show -s --format=%an <%ae> [%ai] 514fce670a7ee58a18d9d96dda2c1501295fff05
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 514fce670a7ee58a18d9d96dda2c1501295fff05
+> git show -s --format=%an <%ae> [%ai] 56abc9ede200c9999232adc6d78bebc5cf58ba52
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 56abc9ede200c9999232adc6d78bebc5cf58ba52
+> git show -s --format=%an <%ae> [%ai] 69e36f100b02bb4046b079b691885f38b41b849e
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 69e36f100b02bb4046b079b691885f38b41b849e
+> git show -s --format=%an <%ae> [%ai] a9eee879f2b03443dd235f9c61ab0d26430cb40e
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z a9eee879f2b03443dd235f9c61ab0d26430cb40e
+> git show -s --format=%an <%ae> [%ai] 147399a04c05a4d560719320333b1ec5b0fd303d
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 147399a04c05a4d560719320333b1ec5b0fd303d
+> git show -s --format=%an <%ae> [%ai] 5115ab0ec1e512e4465a7058df3a78a10ea692ea
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 5115ab0ec1e512e4465a7058df3a78a10ea692ea
+> git show -s --format=%an <%ae> [%ai] e0a70ab5e05880325ecbda4c985579744e852a64
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z e0a70ab5e05880325ecbda4c985579744e852a64
+> git show -s --format=%an <%ae> [%ai] 5c70c96d174e270d206e80d9cc346064ef2bc4ad
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 5c70c96d174e270d206e80d9cc346064ef2bc4ad
+> git show -s --format=%an <%ae> [%ai] 65baa527aab1c04c28287c33ce6c8be7761914a8
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 65baa527aab1c04c28287c33ce6c8be7761914a8
+> git show -s --format=%an <%ae> [%ai] ff0452f1a96bbbe50d6d104381b5926e4c10479a
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z ff0452f1a96bbbe50d6d104381b5926e4c10479a
+> git show -s --format=%an <%ae> [%ai] 89efa9fe1473cf549cf4df2d95076f3441df7ee7
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 89efa9fe1473cf549cf4df2d95076f3441df7ee7

@@ -1,0 +1,30 @@
+[2020-05-26 09:37:49.445] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2020-05-26 09:37:49.445] [remoteagent] [info] Extension host agent started.
+[2020-05-26 09:37:49.960] [remoteagent] [info] [127.0.0.1][10141afa][ManagementConnection] New connection established.
+[2020-05-26 09:37:49.968] [remoteagent] [info] [127.0.0.1][1fd8fff4][ExtensionHostConnection] New connection established.
+[2020-05-26 09:37:50.145] [remoteagent] [info] [127.0.0.1][1fd8fff4][ExtensionHostConnection] <25294> Launched Extension Host Process.
+[2020-05-26 09:37:52.195] [remoteagent] [info] Installing extension: ms-vsliveshare.vsliveshare
+[2020-05-26 09:37:52.739] [remoteagent] [info] Downloaded extension: ms-vsliveshare.vsliveshare /tmp/9eba3f78-398f-42e8-97e7-4ad2ea4bce95
+[2020-05-26 09:37:54.221] [remoteagent] [info] Extracted extension to /home/nkaviratna/.vscode-server-insiders/extensions/.ms-vsliveshare.vsliveshare-1.0.2236: ms-vsliveshare.vsliveshare
+[2020-05-26 09:37:54.221] [remoteagent] [info] Renamed to /home/nkaviratna/.vscode-server-insiders/extensions/ms-vsliveshare.vsliveshare-1.0.2236
+[2020-05-26 09:37:54.227] [remoteagent] [info] Installation completed. ms-vsliveshare.vsliveshare
+[2020-05-26 09:37:54.254] [remoteagent] [info] Extensions installed successfully: ms-vsliveshare.vsliveshare
+[2020-05-26 09:38:07.240] [remoteagent] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2020-05-26 13:53:00.191] [remoteagent] [info] [127.0.0.1][10141afa][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2020-05-26 14:03:49.955] [remoteagent] [info] [127.0.0.1][10141afa][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2020-05-26 14:03:49.956] [remoteagent] [info] [127.0.0.1][10141afa][ManagementConnection] The client has reconnected.
+[2020-05-26 14:03:49.957] [remoteagent] [info] [127.0.0.1][1fd8fff4][ExtensionHostConnection] The client has reconnected.
+[2020-05-26 17:00:41.790] [remoteagent] [info] [127.0.0.1][10141afa][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2020-05-26 20:00:37.684] [remoteagent] [info] [127.0.0.1][1fd8fff4][ExtensionHostConnection] <25294> Extension Host Process exited with code: 0, signal: null.
+[2020-05-26 20:00:37.685] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2020-05-26 20:00:41.794] [remoteagent] [info] [127.0.0.1][10141afa][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[2020-05-26 20:05:37.747] [remoteagent] [info] Last EH closed, shutting down

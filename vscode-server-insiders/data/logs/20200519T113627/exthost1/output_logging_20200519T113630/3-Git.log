@@ -1,0 +1,135 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/nkaviratna/USim
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git config --global user.email
+> git config --global user.name
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show -s --format=%an <%ae> [%ai] 19a8a7b4cf2c7e9b64f477a0ac2a5b8dced58e80
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 19a8a7b4cf2c7e9b64f477a0ac2a5b8dced58e80
+> git show -s --format=%an <%ae> [%ai] f57bcec7c81391fcfa2025d5cfaf3f4b622adf6e
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z f57bcec7c81391fcfa2025d5cfaf3f4b622adf6e
+> git show -s --format=%an <%ae> [%ai] 6c58172a89e098824fa2d35703088d59c08d3afd
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 6c58172a89e098824fa2d35703088d59c08d3afd
+> git show -s --format=%an <%ae> [%ai] 40038d03c31d87e4e19b0ad0a742728748e86670
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 40038d03c31d87e4e19b0ad0a742728748e86670
+> git show -s --format=%an <%ae> [%ai] 4ed0ab8d1a627f4680f221aae23f2dcb575a42f5
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 4ed0ab8d1a627f4680f221aae23f2dcb575a42f5
+> git show -s --format=%an <%ae> [%ai] 8a551253f264c01d47245f64d7feaa6269e60d91
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 8a551253f264c01d47245f64d7feaa6269e60d91
+> git show -s --format=%an <%ae> [%ai] dd35fcce28a7337ff3a5f4b87ee88f12ea8032e5
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z dd35fcce28a7337ff3a5f4b87ee88f12ea8032e5
+> git show -s --format=%an <%ae> [%ai] bc6a68218d4954db31825a333ab83942e87e44a2
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z bc6a68218d4954db31825a333ab83942e87e44a2
+> git show -s --format=%an <%ae> [%ai] 5fa9f0351f9b27d91be97fc7f7e628b24162cc57
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 5fa9f0351f9b27d91be97fc7f7e628b24162cc57
+> git show -s --format=%an <%ae> [%ai] c35ca8e96656029feab7df3b9a7a8ea0f9f5b40c
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z c35ca8e96656029feab7df3b9a7a8ea0f9f5b40c
+> git show -s --format=%an <%ae> [%ai] 58a330b6598e89cce2d6d6844be2e6f44b96fa53
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 58a330b6598e89cce2d6d6844be2e6f44b96fa53
+> git show -s --format=%an <%ae> [%ai] eaee0aada7acd012bef13498d7b876cfeca9b72b
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z eaee0aada7acd012bef13498d7b876cfeca9b72b
+> git show -s --format=%an <%ae> [%ai] 13f30170320ba1269193a198bab0c782a9b9d5b2
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 13f30170320ba1269193a198bab0c782a9b9d5b2
+> git show -s --format=%an <%ae> [%ai] ffc31f7caef1aee4b8571ba7972ce4b9dc125161
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z ffc31f7caef1aee4b8571ba7972ce4b9dc125161
+> git show -s --format=%an <%ae> [%ai] 017b020ba482c442cfcff727a514a14b8e7dd299
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 017b020ba482c442cfcff727a514a14b8e7dd299
+> git show -s --format=%an <%ae> [%ai] d76ae1666576e67a96cf140cd5317deddfb1dfcf
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z d76ae1666576e67a96cf140cd5317deddfb1dfcf
+> git show -s --format=%an <%ae> [%ai] cefcf66f0805a022be25d9fcd48e89a917f894b4
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z cefcf66f0805a022be25d9fcd48e89a917f894b4
+> git show -s --format=%an <%ae> [%ai] 00f54e8af4548790633c415be85ae2b5d026722f
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 00f54e8af4548790633c415be85ae2b5d026722f
+> git show -s --format=%an <%ae> [%ai] a4063c95514b61cfea75c5c7edfb43d858b9bd66
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z a4063c95514b61cfea75c5c7edfb43d858b9bd66
+> git show :proto/simulation/sim_bridge/engine_comms/PerceptionSim.proto
+> git ls-files --stage -- /home/nkaviratna/USim/proto/simulation/sim_bridge/engine_comms/PerceptionSim.proto
+> git cat-file -s 85b0d71a62768bb6f839fbd3a3da303d0843490d
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/nkaviratna/USim/proto/simulation/sim_bridge/engine_comms/PerceptionSim.proto
+> git cat-file -s 74f859e6ace0cc21021998e91a0e2161677be32b
+> git show :proto/simulation/sim_bridge/engine_comms/PerceptionSim.proto
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/camera_in_proto
+> git rev-parse --symbolic-full-name NealKaviratna/camera_in_proto@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/nkaviratna/USim/proto/simulation/sim_bridge/engine_comms/PerceptionSim.proto
+> git cat-file -s 74f859e6ace0cc21021998e91a0e2161677be32b
+> git show :proto/simulation/sim_bridge/engine_comms/PerceptionSim.proto
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin

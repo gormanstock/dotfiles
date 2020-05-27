@@ -1,0 +1,2 @@
+[2020-05-20 16:48:37:424] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false show 39a47de04ff4763d6d32de86b536b504c401a6c3:./atg/autonomy/object_properties.hh --): 
+[2020-05-20 16:48:37:425] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false show 2a62f55e4e62a2cd147ff98a8796d5435b3aa57c:./atg/autonomy/object_properties.hh --): 

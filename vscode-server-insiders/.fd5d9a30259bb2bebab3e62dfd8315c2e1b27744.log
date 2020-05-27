@@ -1,0 +1,64 @@
+
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+IP Address: 172.30.38.114
+IP Address: 192.168.192.1
+Extension host agent listening on 33085
+
+
+[10:49:08] Extension host agent started.
+[10:49:08] [127.0.0.1][0e2334bf][ManagementConnection] New connection established.
+[10:49:08] [127.0.0.1][1286d069][ExtensionHostConnection] New connection established.
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+bash: /etc/uberatc/bashrc.d/*.bashrc: No such file or directory
+tput: No value for $TERM and no -T specified
+bash: /home/nkaviratna/.opus/conf/opus_profile: No such file or directory
+[10:49:09] [127.0.0.1][1286d069][ExtensionHostConnection] <4068> Launched Extension Host Process.
+[10:49:25] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+Error: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:83:16) {
+  errno: 'EPIPE',
+  code: 'EPIPE',
+  syscall: 'write'
+}
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/nkaviratna/.vscode-server-insiders/bin/fd5d9a30259bb2bebab3e62dfd8315c2e1b27744/out/bootstrap.js:5:80)
+    at process.emit (events.js:200:13)
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/nkaviratna/.vscode-server-insiders/bin/fd5d9a30259bb2bebab3e62dfd8315c2e1b27744/out/bootstrap.js:5:80)
+    at process.emit (events.js:200:13)
+[11:42:48] [127.0.0.1][0e2334bf][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[11:53:34] [127.0.0.1][0e2334bf][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[11:53:34] [127.0.0.1][ed3d8fa8][ManagementConnection] New connection established.
+[11:53:34] [127.0.0.1][3374e2bf][ExtensionHostConnection] New connection established.
+[11:53:34] [127.0.0.1][3374e2bf][ExtensionHostConnection] <31461> Launched Extension Host Process.
+[11:53:47] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[11:58:34] [127.0.0.1][0e2334bf][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[11:58:35] [127.0.0.1][1286d069][ExtensionHostConnection] <4068> Extension Host Process exited with code: 0, signal: null.
+Error: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:83:16) {
+  errno: 'EPIPE',
+  code: 'EPIPE',
+  syscall: 'write'
+}
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/nkaviratna/.vscode-server-insiders/bin/fd5d9a30259bb2bebab3e62dfd8315c2e1b27744/out/bootstrap.js:5:80)
+    at process.emit (events.js:200:13)
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/nkaviratna/.vscode-server-insiders/bin/fd5d9a30259bb2bebab3e62dfd8315c2e1b27744/out/bootstrap.js:5:80)
+    at process.emit (events.js:200:13)
+[17:34:37] [127.0.0.1][ed3d8fa8][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[20:34:31] [127.0.0.1][3374e2bf][ExtensionHostConnection] <31461> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[20:34:31] Last EH closed, waiting before shutting down
+[20:34:37] [127.0.0.1][ed3d8fa8][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+Last EH closed, shutting down
+[20:39:31] Last EH closed, shutting down

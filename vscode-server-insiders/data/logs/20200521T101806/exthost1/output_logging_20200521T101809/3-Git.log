@@ -1,0 +1,800 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/nkaviratna/na
+> git status -z -u
+> git show :atg/perception_prediction/interfaces/objects_with_trajectories.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/perception_prediction/interfaces/objects_with_trajectories.hh
+> git cat-file -s 19ad96f0ef2d26dd245a88f5d9e7f306b52cb8d5
+> git check-ignore -v -z --stdin
+> git config --global user.email
+> git config --global user.name
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show -s --format=%an <%ae> [%ai] 080efa3e7a845074fe56b6d0b7032a3a0eba257c
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 080efa3e7a845074fe56b6d0b7032a3a0eba257c
+> git show -s --format=%an <%ae> [%ai] 5c82709784531b982cd9327df530d2da35a799d2
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 5c82709784531b982cd9327df530d2da35a799d2
+> git show -s --format=%an <%ae> [%ai] a25b48eb45fbb09c4b0c07e581982637d97a4a50
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z a25b48eb45fbb09c4b0c07e581982637d97a4a50
+> git show -s --format=%an <%ae> [%ai] 5382980631fa195477da596b368952f29cd1c682
+> git show -s --format=%an <%ae> [%ai] 62a97528448f49905838f3766e63783221d363ff
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 5382980631fa195477da596b368952f29cd1c682
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 62a97528448f49905838f3766e63783221d363ff
+> git show -s --format=%an <%ae> [%ai] 6515e59613d685701a7d7786bd520cbb5d9ecdf8
+> git show -s --format=%an <%ae> [%ai] b80ba6d28ec58a7d6a066ac18c40a2ddd0376140
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 6515e59613d685701a7d7786bd520cbb5d9ecdf8
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z b80ba6d28ec58a7d6a066ac18c40a2ddd0376140
+> git show -s --format=%an <%ae> [%ai] 5de11d860466447948a00992ab8970b60de63019
+> git show -s --format=%an <%ae> [%ai] ca96d6023aee6b9887f399e676b83fc8282e93a9
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 5de11d860466447948a00992ab8970b60de63019
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z ca96d6023aee6b9887f399e676b83fc8282e93a9
+> git show -s --format=%an <%ae> [%ai] 198b0b48dbb2ad3ae7d85ab951c551ea9f4a3ded
+> git show -s --format=%an <%ae> [%ai] 1afecb2f52efa028c2e669213506f7fe8aa73686
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 198b0b48dbb2ad3ae7d85ab951c551ea9f4a3ded
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 1afecb2f52efa028c2e669213506f7fe8aa73686
+> git show -s --format=%an <%ae> [%ai] 52a408f97983eb18c1a3ba5e62fd569934312c40
+> git show -s --format=%an <%ae> [%ai] 6d7f3226c01fd6f2e8cdfc213ac21b330dadcae8
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 52a408f97983eb18c1a3ba5e62fd569934312c40
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 6d7f3226c01fd6f2e8cdfc213ac21b330dadcae8
+> git show -s --format=%an <%ae> [%ai] 3f829218d466e585a7e256d76887ac2c2c55cf7a
+> git show -s --format=%an <%ae> [%ai] 1cbb830b83049873ae753994def7d15082886641
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 3f829218d466e585a7e256d76887ac2c2c55cf7a
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 1cbb830b83049873ae753994def7d15082886641
+> git show -s --format=%an <%ae> [%ai] 4d1f89b6ae4cb113c79f1c505d2e53acf5c37794
+> git show -s --format=%an <%ae> [%ai] e5774dd852fa4f721ee7efd13d6380731584974e
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 4d1f89b6ae4cb113c79f1c505d2e53acf5c37794
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z e5774dd852fa4f721ee7efd13d6380731584974e
+> git show -s --format=%an <%ae> [%ai] 6489e43b3cfe76da9340d96a078303ca4049492f
+> git show -s --format=%an <%ae> [%ai] 7259d5ff3a3bfbb85b3980c8ee49c2f4ef056daa
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 7259d5ff3a3bfbb85b3980c8ee49c2f4ef056daa
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 6489e43b3cfe76da9340d96a078303ca4049492f
+> git show -s --format=%an <%ae> [%ai] a2762bb446c9554a9797f9ed8db68bba1ebd8f9f
+> git show -s --format=%an <%ae> [%ai] 363b0252ce564e7d444212b515b961c28b78d2b2
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z a2762bb446c9554a9797f9ed8db68bba1ebd8f9f
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 363b0252ce564e7d444212b515b961c28b78d2b2
+> git show -s --format=%an <%ae> [%ai] 770870a0c3376c767cfd1394a170b1c6dc0fe6fb
+> git show -s --format=%an <%ae> [%ai] 07ca54b9940c85b5534ed2dc2e823adc0a641607
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 07ca54b9940c85b5534ed2dc2e823adc0a641607
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 770870a0c3376c767cfd1394a170b1c6dc0fe6fb
+> git show -s --format=%an <%ae> [%ai] e06ee29a0f395ec8065f80af0be7dff5aaa82371
+> git show -s --format=%an <%ae> [%ai] ddbdac1f646a824b022867e5a91da538514c8b87
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z e06ee29a0f395ec8065f80af0be7dff5aaa82371
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z ddbdac1f646a824b022867e5a91da538514c8b87
+> git show :atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git cat-file -s 6c57d1037489dc36117daf2b213ff3b097984786
+> git check-ignore -v -z --stdin
+> git show :atg/simulation/usim/bridge/axl_impl/translate_messages.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/bridge/axl_impl/translate_messages.hh
+> git cat-file -s c9b1f676ce6bd29a8f19ecfa3718c85434170a85
+> git check-ignore -v -z --stdin
+> git show :atg/simulation/usim/bridge/axl_impl/translate_messages.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/bridge/axl_impl/translate_messages.cc
+> git cat-file -s 04a2bc5d7a9f6b555578fa4486ee2e92275cf3b4
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/bridge/axl_impl/translate_messages.cc
+> git cat-file -s 04a2bc5d7a9f6b555578fa4486ee2e92275cf3b4
+> git show :atg/simulation/usim/bridge/axl_impl/translate_messages.cc
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/bridge/axl_impl/translate_messages.cc
+> git cat-file -s 04a2bc5d7a9f6b555578fa4486ee2e92275cf3b4
+> git show :atg/simulation/usim/bridge/axl_impl/translate_messages.cc
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :atg/perception_prediction/trajectory_fusion/xviz/predicted_object_collection_lightweight.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/perception_prediction/trajectory_fusion/xviz/predicted_object_collection_lightweight.hh
+> git cat-file -s 7121b96a4aebb46729454961c5519bb1c890904e
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/perception_prediction/trajectory_fusion/xviz/predicted_object_collection_lightweight.hh
+> git cat-file -s 7121b96a4aebb46729454961c5519bb1c890904e
+> git show :atg/perception_prediction/trajectory_fusion/xviz/predicted_object_collection_lightweight.hh
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/nkaviratna/na/atg/perception_prediction/trajectory_fusion/xviz/predicted_object_collection_lightweight.hh
+> git cat-file -s 7121b96a4aebb46729454961c5519bb1c890904e
+> git show :atg/perception_prediction/trajectory_fusion/xviz/predicted_object_collection_lightweight.hh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git cat-file -s 6c57d1037489dc36117daf2b213ff3b097984786
+> git check-ignore -v -z --stdin
+> git show :atg/autonomy/predicted_object.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/autonomy/predicted_object.hh
+> git cat-file -s 53aa2b9a6fe6267874fe19fa71b98144019734ff
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :atg/autonomy/object_properties.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/autonomy/object_properties.hh
+> git cat-file -s a09b2c0f5baac60ac34949e78f0d4854c0c2d896
+> git show :atg/autonomy/predicted_object.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/autonomy/predicted_object.hh
+> git cat-file -s 53aa2b9a6fe6267874fe19fa71b98144019734ff
+> git show :atg/autonomy/trajectory_graph.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/autonomy/trajectory_graph.hh
+> git cat-file -s eb5aa6686f132a93b4447f15f267353f03a988da
+> git show :atg/autonomy/trajectory_graph.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/autonomy/trajectory_graph.cc
+> git cat-file -s db526f04df0bfa99da1da85d6d8882a40657eae5
+> git show :atg/autonomy/trajectory_graph.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/autonomy/trajectory_graph.hh
+> git cat-file -s eb5aa6686f132a93b4447f15f267353f03a988da
+> git show :atg/autonomy/trajectory_mode.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/autonomy/trajectory_mode.cc
+> git cat-file -s 03b2197c1a06dd21d60266739c5a1d7e56da1475
+> git show :atg/autonomy/trajectory_mode.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/autonomy/trajectory_mode.hh
+> git cat-file -s a5cb3f8c83002cb24ebcbcb4e76c1cd1787e851f
+> git show :atg/autonomy/trajectory_waypoint.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/autonomy/trajectory_waypoint.hh
+> git cat-file -s 7180b006316be3f99a3f26699a6ec9b1ce1c509e
+> git show :atg/autonomy/trajectory_waypoint_chain.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/autonomy/trajectory_waypoint_chain.hh
+> git cat-file -s 62fd3173219c568f4a3f43d3701b650d51bb0ce5
+> git show :atg/autonomy/testing/fake_object_state.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/autonomy/testing/fake_object_state.cc
+> git cat-file -s 3e690235bd539c920dd92998069594ffc9bf9b70
+> git check-ignore -v -z --stdin
+> git show :atg/autonomy/testing/fake_object_state.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/autonomy/testing/fake_object_state.hh
+> git cat-file -s 0b3535ff1590a812e3c300a34dfaba0ca91d1c31
+> git show :atg/autonomy/BUILD
+> git ls-files --stage -- /home/nkaviratna/na/atg/autonomy/BUILD
+> git cat-file -s f66f778c917464f34680117c75d2ddf9cad65604
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git cat-file -s 6c57d1037489dc36117daf2b213ff3b097984786
+> git show :atg/autonomy/testing/fake_object_state.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/autonomy/testing/fake_object_state.cc
+> git cat-file -s 3e690235bd539c920dd92998069594ffc9bf9b70
+> git show :atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git cat-file -s 6c57d1037489dc36117daf2b213ff3b097984786
+> git show :atg/autonomy/testing/fake_object_state.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/autonomy/testing/fake_object_state.cc
+> git cat-file -s 3e690235bd539c920dd92998069594ffc9bf9b70
+> git show :atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git cat-file -s 6c57d1037489dc36117daf2b213ff3b097984786
+> git show :atg/autonomy/testing/fake_object_state.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/autonomy/testing/fake_object_state.cc
+> git cat-file -s 3e690235bd539c920dd92998069594ffc9bf9b70
+> git show :atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git cat-file -s 6c57d1037489dc36117daf2b213ff3b097984786
+> git show :atg/autonomy/testing/fake_object_state.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/autonomy/testing/fake_object_state.cc
+> git cat-file -s 3e690235bd539c920dd92998069594ffc9bf9b70
+> git show :atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git cat-file -s 6c57d1037489dc36117daf2b213ff3b097984786
+> git show :atg/autonomy/testing/fake_object_state.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/autonomy/testing/fake_object_state.cc
+> git cat-file -s 3e690235bd539c920dd92998069594ffc9bf9b70
+> git show :atg/autonomy/testing/fake_object_properties.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/autonomy/testing/fake_object_properties.cc
+> git cat-file -s 029e035335f5fbe9d30f87cd2bccff5d73c0a8df
+> git show :atg/autonomy/testing/fake_trajectory.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/autonomy/testing/fake_trajectory.cc
+> git cat-file -s f84a59757fb489f14839ea72729dedd2fe120a8c
+> git show :atg/autonomy/testing/fake_trajectory.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/autonomy/testing/fake_trajectory.hh
+> git cat-file -s e14da048c4997c364a6624e3352b50fd0ca19477
+> git show :atg/autonomy_system_metrics_rna_interface/state_conversion/test/object_labels_test.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/autonomy_system_metrics_rna_interface/state_conversion/test/object_labels_test.cc
+> git cat-file -s 48727f38bd2a8569cf4df710f33dfb73c2125b74
+> git check-ignore -v -z --stdin
+> git show :atg/perception_prediction/interfaces/testing/fake_object_with_trajectories.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/perception_prediction/interfaces/testing/fake_object_with_trajectories.hh
+> git cat-file -s dfdcd71c6f9e4ee5130d90e4d6afe62952646220
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :atg/perception_prediction/interfaces/BUILD
+> git ls-files --stage -- /home/nkaviratna/na/atg/perception_prediction/interfaces/BUILD
+> git cat-file -s 6e88831916a064b76958bb47ce4cd539e984505d
+> git show :atg/autonomy/testing/fake_object_state.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/autonomy/testing/fake_object_state.cc
+> git cat-file -s 3e690235bd539c920dd92998069594ffc9bf9b70
+> git show :atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git cat-file -s 6c57d1037489dc36117daf2b213ff3b097984786
+> git show :atg/autonomy/testing/fake_object_state.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/autonomy/testing/fake_object_state.cc
+> git cat-file -s 3e690235bd539c920dd92998069594ffc9bf9b70
+> git show :atg/simulation/s2/xviz_impl/BUILD
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/BUILD
+> git cat-file -s 677521d4491dc713dae96300f80a1348d72d383a
+> git show :atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git cat-file -s 6c57d1037489dc36117daf2b213ff3b097984786
+> git show :atg/autonomy/testing/fake_object_state.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/autonomy/testing/fake_object_state.cc
+> git cat-file -s 3e690235bd539c920dd92998069594ffc9bf9b70
+> git show :atg/perception_prediction/interfaces/BUILD
+> git ls-files --stage -- /home/nkaviratna/na/atg/perception_prediction/interfaces/BUILD
+> git cat-file -s 6e88831916a064b76958bb47ce4cd539e984505d
+> git show :atg/simulation/s2/xviz_impl/BUILD
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/BUILD
+> git cat-file -s 677521d4491dc713dae96300f80a1348d72d383a
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/BUILD
+> git cat-file -s 677521d4491dc713dae96300f80a1348d72d383a
+> git show :atg/simulation/s2/xviz_impl/BUILD
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/BUILD
+> git cat-file -s 677521d4491dc713dae96300f80a1348d72d383a
+> git show :atg/simulation/s2/xviz_impl/BUILD
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/BUILD
+> git cat-file -s 677521d4491dc713dae96300f80a1348d72d383a
+> git show :atg/simulation/s2/xviz_impl/BUILD
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git cat-file -s 6c57d1037489dc36117daf2b213ff3b097984786
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :atg/simulation/s2/xviz_impl/conversion.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/conversion.cc
+> git cat-file -s cbd181456afd0064874647b227daae5c4db7f0a5
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/conversion.cc
+> git cat-file -s cbd181456afd0064874647b227daae5c4db7f0a5
+> git show :atg/simulation/s2/xviz_impl/conversion.cc
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git cat-file -s 6c57d1037489dc36117daf2b213ff3b097984786
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git cat-file -s 6c57d1037489dc36117daf2b213ff3b097984786
+> git show :atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :atg/simulation/s2/xviz_impl/conversion.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/conversion.cc
+> git cat-file -s cbd181456afd0064874647b227daae5c4db7f0a5
+> git show :atg/perception_prediction/interfaces/objects_with_trajectories.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/perception_prediction/interfaces/objects_with_trajectories.hh
+> git cat-file -s 19ad96f0ef2d26dd245a88f5d9e7f306b52cb8d5
+> git show :atg/simulation/s2/xviz_impl/conversion.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/conversion.cc
+> git cat-file -s cbd181456afd0064874647b227daae5c4db7f0a5
+> git show :atg/perception_prediction/interfaces/objects_with_trajectories.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/perception_prediction/interfaces/objects_with_trajectories.hh
+> git cat-file -s 19ad96f0ef2d26dd245a88f5d9e7f306b52cb8d5
+> git show :atg/simulation/s2/xviz_impl/conversion.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/conversion.cc
+> git cat-file -s cbd181456afd0064874647b227daae5c4db7f0a5
+> git show :atg/perception_prediction/interfaces/objects_with_trajectories.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/perception_prediction/interfaces/objects_with_trajectories.hh
+> git cat-file -s 19ad96f0ef2d26dd245a88f5d9e7f306b52cb8d5
+> git show :atg/bolts/base/interval.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/bolts/base/interval.hh
+> git cat-file -s 80a073cfe14a61f512b00607bbc16bd212948caa
+> git check-ignore -v -z --stdin
+> git show :atg/simulation/s2/xviz_impl/conversion.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/conversion.cc
+> git cat-file -s cbd181456afd0064874647b227daae5c4db7f0a5
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/conversion.cc
+> git cat-file -s cbd181456afd0064874647b227daae5c4db7f0a5
+> git show :atg/simulation/s2/xviz_impl/conversion.cc
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :atg/perception_prediction/interfaces/objects_with_trajectories.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/perception_prediction/interfaces/objects_with_trajectories.hh
+> git cat-file -s 19ad96f0ef2d26dd245a88f5d9e7f306b52cb8d5
+> git ls-files --stage -- /home/nkaviratna/na/atg/perception_prediction/interfaces/objects_with_trajectories.hh
+> git cat-file -s 19ad96f0ef2d26dd245a88f5d9e7f306b52cb8d5
+> git show :atg/perception_prediction/interfaces/objects_with_trajectories.hh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :atg/simulation/s2/xviz_impl/conversion.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/conversion.cc
+> git cat-file -s cbd181456afd0064874647b227daae5c4db7f0a5
+> git show :atg/perception_prediction/interfaces/objects_with_trajectories.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/perception_prediction/interfaces/objects_with_trajectories.hh
+> git cat-file -s 19ad96f0ef2d26dd245a88f5d9e7f306b52cb8d5
+> git show :atg/geometry/estimates.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/geometry/estimates.hh
+> git cat-file -s 94ba318a9b925c255e363f587f7074682804efeb
+> git check-ignore -v -z --stdin
+> git show :atg/simulation/s2/xviz_impl/conversion.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/conversion.cc
+> git cat-file -s cbd181456afd0064874647b227daae5c4db7f0a5
+> git check-ignore -v -z --stdin
+> git show :atg/geometry/estimates.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/geometry/estimates.hh
+> git cat-file -s 94ba318a9b925c255e363f587f7074682804efeb
+> git show :atg/bolts/base/interval.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/bolts/base/interval.hh
+> git cat-file -s 80a073cfe14a61f512b00607bbc16bd212948caa
+> git show :atg/geometry/estimates.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/geometry/estimates.hh
+> git cat-file -s 94ba318a9b925c255e363f587f7074682804efeb
+> git show :atg/simulation/s2/xviz_impl/conversion.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/conversion.cc
+> git cat-file -s cbd181456afd0064874647b227daae5c4db7f0a5
+> git show :atg/perception_prediction/interfaces/objects_with_trajectories.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/perception_prediction/interfaces/objects_with_trajectories.hh
+> git cat-file -s 19ad96f0ef2d26dd245a88f5d9e7f306b52cb8d5
+> git show :atg/autonomy/object_properties.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/autonomy/object_properties.hh
+> git cat-file -s a09b2c0f5baac60ac34949e78f0d4854c0c2d896
+> git show :atg/simulation/s2/xviz_impl/conversion.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/conversion.cc
+> git cat-file -s cbd181456afd0064874647b227daae5c4db7f0a5
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/conversion.cc
+> git cat-file -s cbd181456afd0064874647b227daae5c4db7f0a5
+> git show :atg/simulation/s2/xviz_impl/conversion.cc
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git cat-file -s 6c57d1037489dc36117daf2b213ff3b097984786
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git cat-file -s 6c57d1037489dc36117daf2b213ff3b097984786
+> git show :atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git cat-file -s 6c57d1037489dc36117daf2b213ff3b097984786
+> git show :atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git cat-file -s 6c57d1037489dc36117daf2b213ff3b097984786
+> git show :atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :atg/autonomy/testing/fake_object_state.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/autonomy/testing/fake_object_state.cc
+> git cat-file -s 3e690235bd539c920dd92998069594ffc9bf9b70
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git cat-file -s 6c57d1037489dc36117daf2b213ff3b097984786
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git cat-file -s 6c57d1037489dc36117daf2b213ff3b097984786
+> git show :atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :atg/simulation/s2/xviz_impl/conversion.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/conversion.hh
+> git cat-file -s 45a504469924dd767d0eefcc5aaa959d06c7b749
+> git show :atg/simulation/s2/xviz_impl/conversion.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/conversion.cc
+> git cat-file -s cbd181456afd0064874647b227daae5c4db7f0a5
+> git show :atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git cat-file -s 6c57d1037489dc36117daf2b213ff3b097984786
+> git show :atg/simulation/s2/xviz_impl/conversion.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/conversion.cc
+> git cat-file -s cbd181456afd0064874647b227daae5c4db7f0a5
+> git show :atg/simulation/usim/interfaces/sim_ground_truth.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/interfaces/sim_ground_truth.hh
+> git cat-file -s 1114c5521ee343576fb869300cced78d6e90750c
+> git check-ignore -v -z --stdin
+> git show :atg/simulation/s2/xviz_impl/conversion.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/conversion.cc
+> git cat-file -s cbd181456afd0064874647b227daae5c4db7f0a5
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/conversion.cc
+> git cat-file -s cbd181456afd0064874647b227daae5c4db7f0a5
+> git show :atg/simulation/s2/xviz_impl/conversion.cc
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git cat-file -s 6c57d1037489dc36117daf2b213ff3b097984786
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git cat-file -s 6c57d1037489dc36117daf2b213ff3b097984786
+> git show :atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :atg/perception_prediction/interfaces/testing/fake_object_with_trajectories.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/perception_prediction/interfaces/testing/fake_object_with_trajectories.hh
+> git cat-file -s dfdcd71c6f9e4ee5130d90e4d6afe62952646220
+> git config --get commit.template
+> git ls-files --stage -- /home/nkaviratna/na/atg/perception_prediction/interfaces/testing/fake_object_with_trajectories.hh
+> git cat-file -s dfdcd71c6f9e4ee5130d90e4d6afe62952646220
+> git show :atg/perception_prediction/interfaces/testing/fake_object_with_trajectories.hh
+> git show :atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git cat-file -s 6c57d1037489dc36117daf2b213ff3b097984786
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git cat-file -s 6c57d1037489dc36117daf2b213ff3b097984786
+> git show :atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git cat-file -s 6c57d1037489dc36117daf2b213ff3b097984786
+> git show :atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git show :atg/simulation/s2/xviz_impl/conversion.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/conversion.hh
+> git cat-file -s 45a504469924dd767d0eefcc5aaa959d06c7b749
+> git show :atg/simulation/s2/xviz_impl/conversion.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/conversion.cc
+> git cat-file -s cbd181456afd0064874647b227daae5c4db7f0a5
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/conversion.cc
+> git cat-file -s cbd181456afd0064874647b227daae5c4db7f0a5
+> git show :atg/simulation/s2/xviz_impl/conversion.cc
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git cat-file -s 6c57d1037489dc36117daf2b213ff3b097984786
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git cat-file -s 6c57d1037489dc36117daf2b213ff3b097984786
+> git show :atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :atg/bolts/base/overloaded_visitor.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/bolts/base/overloaded_visitor.hh
+> git cat-file -s 09a1e47c68eea6c3ad063aacb429cad53b2e2d5c
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git cat-file -s 6c57d1037489dc36117daf2b213ff3b097984786
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git cat-file -s 6c57d1037489dc36117daf2b213ff3b097984786
+> git show :atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :atg/simulation/s2/xviz_impl/BUILD
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/BUILD
+> git cat-file -s 677521d4491dc713dae96300f80a1348d72d383a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git cat-file -s 6c57d1037489dc36117daf2b213ff3b097984786
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git cat-file -s 6c57d1037489dc36117daf2b213ff3b097984786
+> git show :atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git cat-file -s 6c57d1037489dc36117daf2b213ff3b097984786
+> git show :atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :atg/autonomy_system_metrics_rna_interface/metric_writers/axl_impl/excessive_caution_metric_writer.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/autonomy_system_metrics_rna_interface/metric_writers/axl_impl/excessive_caution_metric_writer.cc
+> git cat-file -s 94231fbf199f6ae64ad5b96759be345215ea9ab1
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :atg/autonomy_system_metrics_rna_interface/metric_writers/axl_impl/BUILD
+> git ls-files --stage -- /home/nkaviratna/na/atg/autonomy_system_metrics_rna_interface/metric_writers/axl_impl/BUILD
+> git cat-file -s ee475aed97f0af61207af0d29e7ef099a05873b7
+> git show :atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git cat-file -s 6c57d1037489dc36117daf2b213ff3b097984786
+> git show :atg/simulation/s2/xviz_impl/BUILD
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/BUILD
+> git cat-file -s 677521d4491dc713dae96300f80a1348d72d383a
+> git show :atg/autonomy_system_metrics_rna_interface/metric_writers/axl_impl/BUILD
+> git ls-files --stage -- /home/nkaviratna/na/atg/autonomy_system_metrics_rna_interface/metric_writers/axl_impl/BUILD
+> git cat-file -s ee475aed97f0af61207af0d29e7ef099a05873b7
+> git show :atg/simulation/s2/xviz_impl/BUILD
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/BUILD
+> git cat-file -s 677521d4491dc713dae96300f80a1348d72d383a
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/BUILD
+> git cat-file -s 677521d4491dc713dae96300f80a1348d72d383a
+> git show :atg/simulation/s2/xviz_impl/BUILD
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/BUILD
+> git cat-file -s 677521d4491dc713dae96300f80a1348d72d383a
+> git show :atg/simulation/s2/xviz_impl/BUILD
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git cat-file -s 6c57d1037489dc36117daf2b213ff3b097984786
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git cat-file -s 6c57d1037489dc36117daf2b213ff3b097984786
+> git show :atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git cat-file -s 6c57d1037489dc36117daf2b213ff3b097984786
+> git show :atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git cat-file -s 6c57d1037489dc36117daf2b213ff3b097984786
+> git show :atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git cat-file -s 6c57d1037489dc36117daf2b213ff3b097984786
+> git show :atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :atg/simulation/s2/xviz_impl/conversion.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/conversion.hh
+> git cat-file -s 45a504469924dd767d0eefcc5aaa959d06c7b749
+> git show :atg/simulation/s2/xviz_impl/conversion.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/conversion.cc
+> git cat-file -s cbd181456afd0064874647b227daae5c4db7f0a5
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :atg/simulation/s2/xviz_impl/BUILD
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/BUILD
+> git cat-file -s 677521d4491dc713dae96300f80a1348d72d383a
+> git show :atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/s2/xviz_impl/test/conversion_test.cc
+> git cat-file -s 6c57d1037489dc36117daf2b213ff3b097984786

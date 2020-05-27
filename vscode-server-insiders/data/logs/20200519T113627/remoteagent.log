@@ -1,0 +1,33 @@
+[2020-05-19 11:36:27.354] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2020-05-19 11:36:27.354] [remoteagent] [info] Extension host agent started.
+[2020-05-19 11:36:27.878] [remoteagent] [info] [127.0.0.1][eb6962b0][ManagementConnection] New connection established.
+[2020-05-19 11:36:27.879] [remoteagent] [info] [127.0.0.1][b00dda9b][ExtensionHostConnection] New connection established.
+[2020-05-19 11:36:28.020] [remoteagent] [info] [127.0.0.1][b00dda9b][ExtensionHostConnection] <14353> Launched Extension Host Process.
+[2020-05-19 11:49:16.191] [remoteagent] [info] [127.0.0.1][4e0843de][ManagementConnection] New connection established.
+[2020-05-19 11:49:16.192] [remoteagent] [info] [127.0.0.1][56c63d8a][ExtensionHostConnection] New connection established.
+[2020-05-19 11:49:16.196] [remoteagent] [info] [127.0.0.1][56c63d8a][ExtensionHostConnection] <17083> Launched Extension Host Process.
+[2020-05-19 11:49:17.398] [remoteagent] [info] [127.0.0.1][eb6962b0][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-05-19 11:49:18.423] [remoteagent] [info] [127.0.0.1][b00dda9b][ExtensionHostConnection] <14353> Extension Host Process exited with code: 0, signal: null.
+[2020-05-19 11:49:29.295] [remoteagent] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2020-05-19 11:58:04.252] [remoteagent] [info] [127.0.0.1][4e0843de][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2020-05-19 13:18:20.537] [remoteagent] [info] [127.0.0.1][4e0843de][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2020-05-19 13:18:20.537] [remoteagent] [info] [127.0.0.1][9c247125][ManagementConnection] New connection established.
+[2020-05-19 13:18:20.538] [remoteagent] [info] [127.0.0.1][05bfb5f9][ExtensionHostConnection] New connection established.
+[2020-05-19 13:18:20.542] [remoteagent] [info] [127.0.0.1][05bfb5f9][ExtensionHostConnection] <32749> Launched Extension Host Process.
+[2020-05-19 13:18:33.523] [remoteagent] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2020-05-19 13:23:20.540] [remoteagent] [info] [127.0.0.1][4e0843de][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[2020-05-19 13:23:21.573] [remoteagent] [info] [127.0.0.1][56c63d8a][ExtensionHostConnection] <17083> Extension Host Process exited with code: 0, signal: null.
+[2020-05-19 13:49:04.506] [remoteagent] [info] [127.0.0.1][9c247125][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2020-05-19 16:48:56.911] [remoteagent] [info] [127.0.0.1][05bfb5f9][ExtensionHostConnection] <32749> Extension Host Process exited with code: 0, signal: null.
+[2020-05-19 16:48:56.911] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2020-05-19 16:49:04.509] [remoteagent] [info] [127.0.0.1][9c247125][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[2020-05-19 16:53:56.912] [remoteagent] [info] Last EH closed, shutting down

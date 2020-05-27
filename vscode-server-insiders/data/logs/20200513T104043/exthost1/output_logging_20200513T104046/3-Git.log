@@ -1,0 +1,482 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/nkaviratna/na
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_mask
+> git rev-parse --symbolic-full-name NealKaviratna/add_mask@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git config --get commit.template
+> git config --global user.email
+> git config --global user.name
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_mask
+> git rev-parse --symbolic-full-name NealKaviratna/add_mask@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :atg/simulation/sensor/utils/csv_to_slice_graph.yml
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/sensor/utils/csv_to_slice_graph.yml
+> git cat-file -s b45af94315572801cc1b3b2bb719f3e2c2f83974
+> git check-ignore -v -z --stdin
+> git config --get commit.template
+> git show -s --format=%an <%ae> [%ai] 8360dc476c0d05c375bd0f99c504287ba0bce81d
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 8360dc476c0d05c375bd0f99c504287ba0bce81d
+> git show -s --format=%an <%ae> [%ai] 69bef4744426862ececff7c378c741a43790993e
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 69bef4744426862ececff7c378c741a43790993e
+> git show -s --format=%an <%ae> [%ai] a7d2b50ef519098ba26abac32e975fb1ae8c6f4e
+> git show -s --format=%an <%ae> [%ai] dfd0e10e06693701959107bba8f194d5525f9764
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z dfd0e10e06693701959107bba8f194d5525f9764
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z a7d2b50ef519098ba26abac32e975fb1ae8c6f4e
+> git show -s --format=%an <%ae> [%ai] d2b52d9131cf2d6de6193fc64dd0ec4f32f33e36
+> git show -s --format=%an <%ae> [%ai] 07d5753c09164bae14c583b66d353ed3b177cf80
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 07d5753c09164bae14c583b66d353ed3b177cf80
+> git show -s --format=%an <%ae> [%ai] 5a286a827005f95efc94626b9139ffed8e57784f
+> git show -s --format=%an <%ae> [%ai] d2b52d9131cf2d6de6193fc64dd0ec4f32f33e36
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 5a286a827005f95efc94626b9139ffed8e57784f
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z d2b52d9131cf2d6de6193fc64dd0ec4f32f33e36
+> git show -s --format=%an <%ae> [%ai] 4ce6e6205ca26184ac32392d6d017b424c2a94eb
+> git show -s --format=%an <%ae> [%ai] 8a3912ea716bd117346d83cd2946d9c1c4eb7a8e
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z d2b52d9131cf2d6de6193fc64dd0ec4f32f33e36
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 8a3912ea716bd117346d83cd2946d9c1c4eb7a8e
+> git show -s --format=%an <%ae> [%ai] 6a4c80311a6ce37a5ce7b8c0e3109fdd73814ca0
+> git show -s --format=%an <%ae> [%ai] 1edeb419e85aaeb4d7f933fbd633fe2e2f9f0239
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 4ce6e6205ca26184ac32392d6d017b424c2a94eb
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 1edeb419e85aaeb4d7f933fbd633fe2e2f9f0239
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 6a4c80311a6ce37a5ce7b8c0e3109fdd73814ca0
+> git show -s --format=%an <%ae> [%ai] 1b0f61fecd2d6984c764715d6cde4df72236c608
+> git show -s --format=%an <%ae> [%ai] 6a4c80311a6ce37a5ce7b8c0e3109fdd73814ca0
+> git show -s --format=%an <%ae> [%ai] 6a4c80311a6ce37a5ce7b8c0e3109fdd73814ca0
+> git show -s --format=%an <%ae> [%ai] 1edeb419e85aaeb4d7f933fbd633fe2e2f9f0239
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 6a4c80311a6ce37a5ce7b8c0e3109fdd73814ca0
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 6a4c80311a6ce37a5ce7b8c0e3109fdd73814ca0
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 1b0f61fecd2d6984c764715d6cde4df72236c608
+> git show -s --format=%an <%ae> [%ai] d66f6a13f15d5bd4cd14ed4053a43d07b6d8a29b
+> git show -s --format=%an <%ae> [%ai] 89c00db652da66678698268867ed80383cf5ed34
+> git show -s --format=%an <%ae> [%ai] dc4242767212ca80da1b3b08deb000d73b0a68c4
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 89c00db652da66678698268867ed80383cf5ed34
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z d66f6a13f15d5bd4cd14ed4053a43d07b6d8a29b
+> git show -s --format=%an <%ae> [%ai] 423cc0fe94909d4678346b1ee8c3e6671488598f
+> git show -s --format=%an <%ae> [%ai] d66f6a13f15d5bd4cd14ed4053a43d07b6d8a29b
+> git show -s --format=%an <%ae> [%ai] d66f6a13f15d5bd4cd14ed4053a43d07b6d8a29b
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 1edeb419e85aaeb4d7f933fbd633fe2e2f9f0239
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z d66f6a13f15d5bd4cd14ed4053a43d07b6d8a29b
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z d66f6a13f15d5bd4cd14ed4053a43d07b6d8a29b
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 423cc0fe94909d4678346b1ee8c3e6671488598f
+> git show -s --format=%an <%ae> [%ai] 2428264d97e1acf637b5248d97463325aa18c0e8
+> git show -s --format=%an <%ae> [%ai] c70814ea5ca1840ba22d105291f8ab4cbf113b49
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z dc4242767212ca80da1b3b08deb000d73b0a68c4
+> git show -s --format=%an <%ae> [%ai] 0ca232b9462611c3328e3859ccd4479ea450f9a4
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z c70814ea5ca1840ba22d105291f8ab4cbf113b49
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 2428264d97e1acf637b5248d97463325aa18c0e8
+> git show -s --format=%an <%ae> [%ai] 655bfa2f4b603572c3eea9c95fdc144aa3fd8f8e
+> git show -s --format=%an <%ae> [%ai] d66f6a13f15d5bd4cd14ed4053a43d07b6d8a29b
+> git show -s --format=%an <%ae> [%ai] 2428264d97e1acf637b5248d97463325aa18c0e8
+> git show -s --format=%an <%ae> [%ai] 2428264d97e1acf637b5248d97463325aa18c0e8
+> git show -s --format=%an <%ae> [%ai] 89c00db652da66678698268867ed80383cf5ed34
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 2428264d97e1acf637b5248d97463325aa18c0e8
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 2428264d97e1acf637b5248d97463325aa18c0e8
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z d66f6a13f15d5bd4cd14ed4053a43d07b6d8a29b
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 655bfa2f4b603572c3eea9c95fdc144aa3fd8f8e
+> git show -s --format=%an <%ae> [%ai] a991e9b00526eb8bd2992704914cdd7ff3af2808
+> git show -s --format=%an <%ae> [%ai] e5992f9eca06e07e0a25b27f3131ac6497cf5259
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 0ca232b9462611c3328e3859ccd4479ea450f9a4
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z e5992f9eca06e07e0a25b27f3131ac6497cf5259
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z a991e9b00526eb8bd2992704914cdd7ff3af2808
+> git show -s --format=%an <%ae> [%ai] 78c20ef61934c03c71f4998322c3e8a09eed69e5
+> git show -s --format=%an <%ae> [%ai] 2428264d97e1acf637b5248d97463325aa18c0e8
+> git show -s --format=%an <%ae> [%ai] a991e9b00526eb8bd2992704914cdd7ff3af2808
+> git show -s --format=%an <%ae> [%ai] a991e9b00526eb8bd2992704914cdd7ff3af2808
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 89c00db652da66678698268867ed80383cf5ed34
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z a991e9b00526eb8bd2992704914cdd7ff3af2808
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z a991e9b00526eb8bd2992704914cdd7ff3af2808
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 2428264d97e1acf637b5248d97463325aa18c0e8
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 78c20ef61934c03c71f4998322c3e8a09eed69e5
+> git show -s --format=%an <%ae> [%ai] 8ae21807f81e59a6e6c2147ec669cd06940caa95
+> git show -s --format=%an <%ae> [%ai] 730983951c39ece59e2cd53087eb4cf74cac7b35
+> git show -s --format=%an <%ae> [%ai] 90f72621d77939c7a2fb5eaf676ce01965c46098
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 730983951c39ece59e2cd53087eb4cf74cac7b35
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 8ae21807f81e59a6e6c2147ec669cd06940caa95
+> git show -s --format=%an <%ae> [%ai] c158040ff1dcf4412251c2a690a95125d66c3690
+> git show -s --format=%an <%ae> [%ai] a991e9b00526eb8bd2992704914cdd7ff3af2808
+> git show -s --format=%an <%ae> [%ai] 8ae21807f81e59a6e6c2147ec669cd06940caa95
+> git show -s --format=%an <%ae> [%ai] 8ae21807f81e59a6e6c2147ec669cd06940caa95
+> git show -s --format=%an <%ae> [%ai] c70814ea5ca1840ba22d105291f8ab4cbf113b49
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 8ae21807f81e59a6e6c2147ec669cd06940caa95
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 8ae21807f81e59a6e6c2147ec669cd06940caa95
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z a991e9b00526eb8bd2992704914cdd7ff3af2808
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z c158040ff1dcf4412251c2a690a95125d66c3690
+> git show -s --format=%an <%ae> [%ai] 175e4469adf2e93b871b242a5e140d08f53562bd
+> git show -s --format=%an <%ae> [%ai] 42a7730b7aadd2c424e8e23f3c46b86bd8a8e296
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 90f72621d77939c7a2fb5eaf676ce01965c46098
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 42a7730b7aadd2c424e8e23f3c46b86bd8a8e296
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z c70814ea5ca1840ba22d105291f8ab4cbf113b49
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 175e4469adf2e93b871b242a5e140d08f53562bd
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/sensor/utils/csv_to_slice_graph.yml
+> git cat-file -s b45af94315572801cc1b3b2bb719f3e2c2f83974
+> git show :atg/simulation/sensor/utils/csv_to_slice_graph.yml
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_mask
+> git rev-parse --symbolic-full-name NealKaviratna/add_mask@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show :atg/simulation/sensor/utils/csv_to_slice_graph.yml
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/sensor/utils/csv_to_slice_graph.yml
+> git cat-file -s b45af94315572801cc1b3b2bb719f3e2c2f83974
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_mask
+> git rev-parse --symbolic-full-name NealKaviratna/add_mask@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :atg/calibration/axl_impl/logging_channel_rules.yml
+> git ls-files --stage -- /home/nkaviratna/na/atg/calibration/axl_impl/logging_channel_rules.yml
+> git cat-file -s 27bc195e76373a36921502bfdc138acff2788eb9
+> git check-ignore -v -z --stdin
+> git show :atg/motion_planner/axl_impl/replay/logging_channel_rules.yml
+> git ls-files --stage -- /home/nkaviratna/na/atg/motion_planner/axl_impl/replay/logging_channel_rules.yml
+> git cat-file -s 27bc195e76373a36921502bfdc138acff2788eb9
+> git check-ignore -v -z --stdin
+> git show :atg/maps/build/lidar_segmentation/axl_impl/log_amending_graph/logging_channel_rules.yml
+> git ls-files --stage -- /home/nkaviratna/na/atg/maps/build/lidar_segmentation/axl_impl/log_amending_graph/logging_channel_rules.yml
+> git cat-file -s 27bc195e76373a36921502bfdc138acff2788eb9
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/maps/build/lidar_segmentation/axl_impl/log_amending_graph/logging_channel_rules.yml
+> git cat-file -s 27bc195e76373a36921502bfdc138acff2788eb9
+> git show :atg/maps/build/lidar_segmentation/axl_impl/log_amending_graph/logging_channel_rules.yml
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_mask
+> git rev-parse --symbolic-full-name NealKaviratna/add_mask@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :atg/simulation/sensor/utils/csv_to_slice_graph.yml
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/sensor/utils/csv_to_slice_graph.yml
+> git cat-file -s b45af94315572801cc1b3b2bb719f3e2c2f83974
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_mask
+> git rev-parse --symbolic-full-name NealKaviratna/add_mask@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/sensor/utils/csv_to_slice_graph.yml
+> git cat-file -s 6b5c1e53fbe13025350be873a1436f306d625c28
+> git show :atg/simulation/sensor/utils/csv_to_slice_graph.yml
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/fix_csv_to_slice
+> git rev-parse --symbolic-full-name NealKaviratna/fix_csv_to_slice@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/nkaviratna/na/atg/simulation/sensor/utils/csv_to_slice_graph.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/fix_csv_to_slice
+> git rev-parse --symbolic-full-name NealKaviratna/fix_csv_to_slice@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_mask
+> git rev-parse --symbolic-full-name NealKaviratna/add_mask@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :atg/simulation/sensor/utils/lidar_mask.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/sensor/utils/lidar_mask.cc
+> git cat-file -s f76948e40bc6f116ddac7a09d1283ef33b9961f8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_mask
+> git rev-parse --symbolic-full-name NealKaviratna/add_mask@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :atg/simulation/sensor/utils/test/lidar_mask_test.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/sensor/utils/test/lidar_mask_test.cc
+> git cat-file -s 6048f26a86be19e620f72825489ab5141ee0f365
+> git check-ignore -v -z --stdin
+> git show :atg/simulation/sensor/utils/lidar_mask.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/sensor/utils/lidar_mask.cc
+> git cat-file -s f76948e40bc6f116ddac7a09d1283ef33b9961f8
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/sensor/utils/lidar_mask.cc
+> git cat-file -s f76948e40bc6f116ddac7a09d1283ef33b9961f8
+> git show :atg/simulation/sensor/utils/lidar_mask.cc
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_mask
+> git rev-parse --symbolic-full-name NealKaviratna/add_mask@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :atg/simulation/sensor/utils/test/lidar_mask_test.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/sensor/utils/test/lidar_mask_test.cc
+> git cat-file -s 6048f26a86be19e620f72825489ab5141ee0f365
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/sensor/utils/test/lidar_mask_test.cc
+> git cat-file -s 6048f26a86be19e620f72825489ab5141ee0f365
+> git show :atg/simulation/sensor/utils/test/lidar_mask_test.cc
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_mask
+> git rev-parse --symbolic-full-name NealKaviratna/add_mask@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_mask
+> git rev-parse --symbolic-full-name NealKaviratna/add_mask@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/sensor/utils/test/lidar_mask_test.cc
+> git cat-file -s 6048f26a86be19e620f72825489ab5141ee0f365
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_mask
+> git rev-parse --symbolic-full-name NealKaviratna/add_mask@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :atg/simulation/sensor/utils/test/lidar_mask_test.cc
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_mask
+> git rev-parse --symbolic-full-name NealKaviratna/add_mask@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :atg/simulation/sensor/utils/lidar_mask.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/sensor/utils/lidar_mask.cc
+> git cat-file -s f76948e40bc6f116ddac7a09d1283ef33b9961f8
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/sensor/utils/lidar_mask.cc
+> git cat-file -s f76948e40bc6f116ddac7a09d1283ef33b9961f8
+> git show :atg/simulation/sensor/utils/lidar_mask.cc
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_mask
+> git rev-parse --symbolic-full-name NealKaviratna/add_mask@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_mask
+> git rev-parse --symbolic-full-name NealKaviratna/add_mask@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :atg/simulation/sensor/utils/test/lidar_mask_test.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/sensor/utils/test/lidar_mask_test.cc
+> git cat-file -s 6048f26a86be19e620f72825489ab5141ee0f365
+> git show :atg/simulation/sensor/utils/lidar_mask.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/sensor/utils/lidar_mask.cc
+> git cat-file -s f76948e40bc6f116ddac7a09d1283ef33b9961f8
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/sensor/utils/lidar_mask.cc
+> git cat-file -s f76948e40bc6f116ddac7a09d1283ef33b9961f8
+> git show :atg/simulation/sensor/utils/lidar_mask.cc
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_mask
+> git rev-parse --symbolic-full-name NealKaviratna/add_mask@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_mask
+> git rev-parse --symbolic-full-name NealKaviratna/add_mask@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/sensor/utils/lidar_mask.cc
+> git cat-file -s f76948e40bc6f116ddac7a09d1283ef33b9961f8
+> git show :atg/simulation/sensor/utils/lidar_mask.cc
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_mask
+> git rev-parse --symbolic-full-name NealKaviratna/add_mask@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/sensor/utils/lidar_mask.cc
+> git cat-file -s f76948e40bc6f116ddac7a09d1283ef33b9961f8
+> git show :atg/simulation/sensor/utils/lidar_mask.cc
+> git show :atg/simulation/sensor/utils/test/lidar_mask_test.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/sensor/utils/test/lidar_mask_test.cc
+> git cat-file -s 6048f26a86be19e620f72825489ab5141ee0f365
+> git show :atg/simulation/sensor/utils/lidar_mask.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/sensor/utils/lidar_mask.cc
+> git cat-file -s f76948e40bc6f116ddac7a09d1283ef33b9961f8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_mask
+> git rev-parse --symbolic-full-name NealKaviratna/add_mask@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :atg/simulation/sensor/utils/lidar_mask.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/sensor/utils/lidar_mask.hh
+> git cat-file -s f623aed1645065401fdf44b3717ddf5624eae0fb
+> git show :atg/simulation/sensor/utils/lidar_mask.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/sensor/utils/lidar_mask.cc
+> git cat-file -s f76948e40bc6f116ddac7a09d1283ef33b9961f8
+> git show :atg/simulation/sensor/utils/lidar_mask.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/sensor/utils/lidar_mask.hh
+> git cat-file -s f623aed1645065401fdf44b3717ddf5624eae0fb
+> git show :atg/simulation/sensor/utils/lidar_mask.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/sensor/utils/lidar_mask.cc
+> git cat-file -s f76948e40bc6f116ddac7a09d1283ef33b9961f8
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/sensor/utils/lidar_mask.cc
+> git cat-file -s f76948e40bc6f116ddac7a09d1283ef33b9961f8
+> git show :atg/simulation/sensor/utils/lidar_mask.cc
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_mask
+> git rev-parse --symbolic-full-name NealKaviratna/add_mask@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/sensor/utils/lidar_mask.cc
+> git cat-file -s f76948e40bc6f116ddac7a09d1283ef33b9961f8
+> git show :atg/simulation/sensor/utils/lidar_mask.cc
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_mask
+> git rev-parse --symbolic-full-name NealKaviratna/add_mask@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/sensor/utils/lidar_mask.cc
+> git cat-file -s f76948e40bc6f116ddac7a09d1283ef33b9961f8
+> git show :atg/simulation/sensor/utils/lidar_mask.cc
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_mask
+> git rev-parse --symbolic-full-name NealKaviratna/add_mask@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_mask
+> git rev-parse --symbolic-full-name NealKaviratna/add_mask@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/sensor/utils/lidar_mask.cc
+> git cat-file -s f76948e40bc6f116ddac7a09d1283ef33b9961f8
+> git show :atg/simulation/sensor/utils/lidar_mask.cc
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_mask
+> git rev-parse --symbolic-full-name NealKaviratna/add_mask@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :atg/simulation/sensor/utils/lidar_mask.hh
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/sensor/utils/lidar_mask.hh
+> git cat-file -s f623aed1645065401fdf44b3717ddf5624eae0fb
+> git show :atg/simulation/sensor/utils/test/lidar_mask_test.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/sensor/utils/test/lidar_mask_test.cc
+> git cat-file -s 6048f26a86be19e620f72825489ab5141ee0f365
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_mask
+> git rev-parse --symbolic-full-name NealKaviratna/add_mask@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/sensor/utils/test/lidar_mask_test.cc
+> git cat-file -s 6048f26a86be19e620f72825489ab5141ee0f365
+> git show :atg/simulation/sensor/utils/test/lidar_mask_test.cc
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_mask
+> git rev-parse --symbolic-full-name NealKaviratna/add_mask@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_mask
+> git rev-parse --symbolic-full-name NealKaviratna/add_mask@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/sensor/utils/test/lidar_mask_test.cc
+> git rev-parse NealKaviratna/add_mask
+> git cat-file -s 6048f26a86be19e620f72825489ab5141ee0f365
+> git rev-parse --symbolic-full-name NealKaviratna/add_mask@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :atg/simulation/sensor/utils/test/lidar_mask_test.cc
+> git config --get commit.template
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/sensor/utils/test/lidar_mask_test.cc
+> git cat-file -s 6048f26a86be19e620f72825489ab5141ee0f365
+> git show :atg/simulation/sensor/utils/test/lidar_mask_test.cc
+> git show :atg/simulation/usim/bridge/axl_impl/translate_messages_subgraph.cc
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/bridge/axl_impl/translate_messages_subgraph.cc
+> git cat-file -s aa681c8675e1d202d9ad7af7c7ad4403bf8469bd
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_mask
+> git rev-parse --symbolic-full-name NealKaviratna/add_mask@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/bridge/axl_impl/translate_messages_subgraph.cc
+> git cat-file -s aa681c8675e1d202d9ad7af7c7ad4403bf8469bd
+> git show :atg/simulation/usim/bridge/axl_impl/translate_messages_subgraph.cc
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_mask
+> git rev-parse --symbolic-full-name NealKaviratna/add_mask@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/bridge/axl_impl/translate_messages_subgraph.cc
+> git cat-file -s aa681c8675e1d202d9ad7af7c7ad4403bf8469bd
+> git show :atg/simulation/usim/bridge/axl_impl/translate_messages_subgraph.cc
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_mask
+> git rev-parse --symbolic-full-name NealKaviratna/add_mask@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/bridge/axl_impl/translate_messages_subgraph.cc
+> git cat-file -s aa681c8675e1d202d9ad7af7c7ad4403bf8469bd
+> git show :atg/simulation/usim/bridge/axl_impl/translate_messages_subgraph.cc
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_mask
+> git rev-parse --symbolic-full-name NealKaviratna/add_mask@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/usim/bridge/axl_impl/translate_messages_subgraph.cc
+> git cat-file -s aa681c8675e1d202d9ad7af7c7ad4403bf8469bd
+> git show :atg/simulation/usim/bridge/axl_impl/translate_messages_subgraph.cc
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_mask
+> git rev-parse --symbolic-full-name NealKaviratna/add_mask@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template

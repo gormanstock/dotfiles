@@ -1,0 +1,40 @@
+[2020-05-17 13:45:36.628] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2020-05-17 13:45:36.628] [remoteagent] [info] Extension host agent started.
+[2020-05-17 13:45:37.647] [remoteagent] [info] [127.0.0.1][13113a13][ManagementConnection] New connection established.
+[2020-05-17 13:45:37.649] [remoteagent] [info] [127.0.0.1][7181a282][ExtensionHostConnection] New connection established.
+[2020-05-17 13:45:37.775] [remoteagent] [info] [127.0.0.1][7181a282][ExtensionHostConnection] <21269> Launched Extension Host Process.
+[2020-05-17 13:45:42.256] [remoteagent] [info] Installing extension: davidanson.vscode-markdownlint
+[2020-05-17 13:45:42.257] [remoteagent] [info] Installing extension: ms-vsliveshare.vsliveshare
+[2020-05-17 13:45:42.787] [remoteagent] [info] Downloaded extension: davidanson.vscode-markdownlint /tmp/3a4e1be6-fdd9-47ab-bb81-5f442717af20
+[2020-05-17 13:45:42.820] [remoteagent] [info] Extracted extension to /home/nkaviratna/.vscode-server-insiders/extensions/.davidanson.vscode-markdownlint-0.35.2: davidanson.vscode-markdownlint
+[2020-05-17 13:45:42.820] [remoteagent] [info] Renamed to /home/nkaviratna/.vscode-server-insiders/extensions/davidanson.vscode-markdownlint-0.35.2
+[2020-05-17 13:45:42.821] [remoteagent] [info] Installation completed. davidanson.vscode-markdownlint
+[2020-05-17 13:45:42.830] [remoteagent] [info] Extensions installed successfully: davidanson.vscode-markdownlint
+[2020-05-17 13:45:43.066] [remoteagent] [info] Downloaded extension: ms-vsliveshare.vsliveshare /tmp/95fec626-1cfe-4966-b72f-760b260a2803
+[2020-05-17 13:45:44.003] [remoteagent] [info] Extracted extension to /home/nkaviratna/.vscode-server-insiders/extensions/.ms-vsliveshare.vsliveshare-1.0.2169: ms-vsliveshare.vsliveshare
+[2020-05-17 13:45:44.003] [remoteagent] [info] Renamed to /home/nkaviratna/.vscode-server-insiders/extensions/ms-vsliveshare.vsliveshare-1.0.2169
+[2020-05-17 13:45:44.006] [remoteagent] [info] Installation completed. ms-vsliveshare.vsliveshare
+[2020-05-17 13:45:44.025] [remoteagent] [info] Extensions installed successfully: ms-vsliveshare.vsliveshare
+[2020-05-17 13:45:53.179] [remoteagent] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2020-05-17 17:09:11.228] [remoteagent] [info] [127.0.0.1][13113a13][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2020-05-17 17:23:27.908] [remoteagent] [info] [127.0.0.1][13113a13][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2020-05-17 17:23:27.909] [remoteagent] [info] [127.0.0.1][562535ce][ManagementConnection] New connection established.
+[2020-05-17 17:23:27.910] [remoteagent] [info] [127.0.0.1][a4a7d0f6][ExtensionHostConnection] New connection established.
+[2020-05-17 17:23:27.918] [remoteagent] [info] [127.0.0.1][a4a7d0f6][ExtensionHostConnection] <2371> Launched Extension Host Process.
+[2020-05-17 17:23:45.355] [remoteagent] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2020-05-17 17:28:27.909] [remoteagent] [info] [127.0.0.1][13113a13][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[2020-05-17 17:28:28.943] [remoteagent] [info] [127.0.0.1][7181a282][ExtensionHostConnection] <21269> Extension Host Process exited with code: 0, signal: null.
+[2020-05-17 18:44:46.328] [remoteagent] [info] [127.0.0.1][562535ce][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2020-05-17 21:44:40.787] [remoteagent] [info] [127.0.0.1][a4a7d0f6][ExtensionHostConnection] <2371> Extension Host Process exited with code: 0, signal: null.
+[2020-05-17 21:44:40.787] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2020-05-17 21:44:46.332] [remoteagent] [info] [127.0.0.1][562535ce][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[2020-05-17 21:49:40.886] [remoteagent] [info] Last EH closed, shutting down

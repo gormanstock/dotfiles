@@ -1,0 +1,25 @@
+
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+IP Address: 172.30.38.114
+Extension host agent listening on 40393
+
+
+[09:12:21] Extension host agent started.
+[09:12:21] Deleted from disk ms-vsliveshare.vsliveshare /home/nkaviratna/.vscode-server-insiders/extensions/ms-vsliveshare.vsliveshare-1.0.2169
+[09:12:22] [127.0.0.1][c22c6d1f][ManagementConnection] New connection established.
+[09:12:22] [127.0.0.1][42a03da1][ExtensionHostConnection] New connection established.
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+bash: /etc/uberatc/bashrc.d/*.bashrc: No such file or directory
+tput: No value for $TERM and no -T specified
+bash: /home/nkaviratna/.opus/conf/opus_profile: No such file or directory
+[09:12:22] [127.0.0.1][42a03da1][ExtensionHostConnection] <30206> Launched Extension Host Process.
+[09:12:38] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)

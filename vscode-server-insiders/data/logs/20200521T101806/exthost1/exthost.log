@@ -1,0 +1,27 @@
+[2020-05-21 10:18:08.866] [exthost] [info] extension host started
+[2020-05-21 10:18:09.048] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-05-21 10:18:09.049] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/nkaviratna/.vscode-server-insiders/bin/288852d8c26d797974bfb8aed06e1bff9b809223/extensions/debug-auto-launch/dist/extension
+[2020-05-21 10:18:09.056] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-05-21 10:18:09.056] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/nkaviratna/.vscode-server-insiders/bin/288852d8c26d797974bfb8aed06e1bff9b809223/extensions/emmet/dist/extension
+[2020-05-21 10:18:09.080] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2020-05-21 10:18:09.080] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/nkaviratna/.vscode-server-insiders/bin/288852d8c26d797974bfb8aed06e1bff9b809223/extensions/git/dist/main
+[2020-05-21 10:18:09.133] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":true,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"*"}
+[2020-05-21 10:18:09.134] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/nkaviratna/.vscode-server-insiders/bin/288852d8c26d797974bfb8aed06e1bff9b809223/extensions/github-authentication/dist/extension.js
+[2020-05-21 10:18:09.148] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-05-21 10:18:09.148] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/nkaviratna/.vscode-server-insiders/bin/288852d8c26d797974bfb8aed06e1bff9b809223/extensions/merge-conflict/dist/extension
+[2020-05-21 10:18:09.153] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-05-21 10:18:09.153] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/nkaviratna/.vscode-server-insiders/bin/288852d8c26d797974bfb8aed06e1bff9b809223/extensions/search-result/dist/extension.js
+[2020-05-21 10:18:09.154] [exthost] [info] ExtensionService#_doActivateExtension vscode.vscode-account {"startup":true,"extensionId":{"value":"vscode.vscode-account","_lower":"vscode.vscode-account"},"activationEvent":"*"}
+[2020-05-21 10:18:09.154] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/nkaviratna/.vscode-server-insiders/bin/288852d8c26d797974bfb8aed06e1bff9b809223/extensions/vscode-account/dist/extension.js
+[2020-05-21 10:18:09.170] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"extensionId":{"value":"dbaeumer.vscode-eslint","_lower":"dbaeumer.vscode-eslint"},"activationEvent":"*"}
+[2020-05-21 10:18:09.170] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/nkaviratna/.vscode-server-insiders/extensions/dbaeumer.vscode-eslint-2.1.5/client/out/extension
+[2020-05-21 10:18:09.191] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens {"startup":true,"extensionId":{"value":"eamodio.gitlens","_lower":"eamodio.gitlens"},"activationEvent":"*"}
+[2020-05-21 10:18:09.191] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/nkaviratna/.vscode-server-insiders/extensions/eamodio.gitlens-10.2.1/dist/extension
+[2020-05-21 10:18:09.285] [exthost] [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare {"startup":true,"extensionId":{"value":"ms-vsliveshare.vsliveshare","_lower":"ms-vsliveshare.vsliveshare"},"activationEvent":"*"}
+[2020-05-21 10:18:09.286] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/nkaviratna/.vscode-server-insiders/extensions/ms-vsliveshare.vsliveshare-1.0.2169/out/prod/extension-prod
+[2020-05-21 10:18:09.563] [exthost] [info] eager extensions activated
+[2020-05-21 10:18:10.025] [exthost] [warning] [Deprecation Warning] 'window.registerTaskProvider' is deprecated. Use the corresponding function on the 'tasks' namespace instead
+[2020-05-21 10:18:11.908] [exthost] [info] Extension 'ms-vsliveshare.vsliveshare' uses a document selector without scheme. Learn more about this: https://go.microsoft.com/fwlink/?linkid=872305
+[2020-05-21 10:29:11.656] [exthost] [info] ExtensionService#_doActivateExtension DevonDCarew.bazel-code {"startup":false,"extensionId":{"value":"DevonDCarew.bazel-code","_lower":"devondcarew.bazel-code"},"activationEvent":"onLanguage:bazel"}
+[2020-05-21 10:29:11.656] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/nkaviratna/.vscode-server-insiders/extensions/devondcarew.bazel-code-0.1.9/out/src/extension
+[2020-05-21 10:29:11.743] [exthost] [info] Extension 'DevonDCarew.bazel-code' uses a document selector without scheme. Learn more about this: https://go.microsoft.com/fwlink/?linkid=872305

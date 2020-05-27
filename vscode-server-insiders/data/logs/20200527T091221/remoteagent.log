@@ -1,0 +1,16 @@
+[2020-05-27 09:12:21.586] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2020-05-27 09:12:21.586] [remoteagent] [info] Extension host agent started.
+[2020-05-27 09:12:21.659] [remoteagent] [info] Deleted from disk ms-vsliveshare.vsliveshare /home/nkaviratna/.vscode-server-insiders/extensions/ms-vsliveshare.vsliveshare-1.0.2169
+[2020-05-27 09:12:22.121] [remoteagent] [info] [127.0.0.1][c22c6d1f][ManagementConnection] New connection established.
+[2020-05-27 09:12:22.122] [remoteagent] [info] [127.0.0.1][42a03da1][ExtensionHostConnection] New connection established.
+[2020-05-27 09:12:22.303] [remoteagent] [info] [127.0.0.1][42a03da1][ExtensionHostConnection] <30206> Launched Extension Host Process.
+[2020-05-27 09:12:38.888] [remoteagent] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)

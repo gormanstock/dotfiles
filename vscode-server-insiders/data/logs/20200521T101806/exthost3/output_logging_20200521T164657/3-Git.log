@@ -1,0 +1,146 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/nkaviratna/na
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --global user.email
+> git check-ignore -v -z --stdin
+> git config --global user.name
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/actor_viz
+> git rev-parse --symbolic-full-name NealKaviratna/actor_viz@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show -s --format=%an <%ae> [%ai] 6ec124242fdf77a16c41645b82b2efd2bd0491f7
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 6ec124242fdf77a16c41645b82b2efd2bd0491f7
+> git show -s --format=%an <%ae> [%ai] cc69801aa7b784dc80a65668248b1da3980d9c9c
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z cc69801aa7b784dc80a65668248b1da3980d9c9c
+> git show -s --format=%an <%ae> [%ai] 3f8b9df47a418120a134112740d9e298e965280b
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 3f8b9df47a418120a134112740d9e298e965280b
+> git show -s --format=%an <%ae> [%ai] 080efa3e7a845074fe56b6d0b7032a3a0eba257c
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 080efa3e7a845074fe56b6d0b7032a3a0eba257c
+> git show -s --format=%an <%ae> [%ai] 5c82709784531b982cd9327df530d2da35a799d2
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 5c82709784531b982cd9327df530d2da35a799d2
+> git show -s --format=%an <%ae> [%ai] a25b48eb45fbb09c4b0c07e581982637d97a4a50
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z a25b48eb45fbb09c4b0c07e581982637d97a4a50
+> git show -s --format=%an <%ae> [%ai] 5382980631fa195477da596b368952f29cd1c682
+> git show -s --format=%an <%ae> [%ai] 62a97528448f49905838f3766e63783221d363ff
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 5382980631fa195477da596b368952f29cd1c682
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 62a97528448f49905838f3766e63783221d363ff
+> git show -s --format=%an <%ae> [%ai] b80ba6d28ec58a7d6a066ac18c40a2ddd0376140
+> git show -s --format=%an <%ae> [%ai] 6515e59613d685701a7d7786bd520cbb5d9ecdf8
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z b80ba6d28ec58a7d6a066ac18c40a2ddd0376140
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 6515e59613d685701a7d7786bd520cbb5d9ecdf8
+> git show -s --format=%an <%ae> [%ai] ca96d6023aee6b9887f399e676b83fc8282e93a9
+> git show -s --format=%an <%ae> [%ai] 5de11d860466447948a00992ab8970b60de63019
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z ca96d6023aee6b9887f399e676b83fc8282e93a9
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 5de11d860466447948a00992ab8970b60de63019
+> git show -s --format=%an <%ae> [%ai] 1afecb2f52efa028c2e669213506f7fe8aa73686
+> git show -s --format=%an <%ae> [%ai] 198b0b48dbb2ad3ae7d85ab951c551ea9f4a3ded
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 1afecb2f52efa028c2e669213506f7fe8aa73686
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 198b0b48dbb2ad3ae7d85ab951c551ea9f4a3ded
+> git show -s --format=%an <%ae> [%ai] 6d7f3226c01fd6f2e8cdfc213ac21b330dadcae8
+> git show -s --format=%an <%ae> [%ai] 52a408f97983eb18c1a3ba5e62fd569934312c40
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 6d7f3226c01fd6f2e8cdfc213ac21b330dadcae8
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 52a408f97983eb18c1a3ba5e62fd569934312c40
+> git show -s --format=%an <%ae> [%ai] 1cbb830b83049873ae753994def7d15082886641
+> git show -s --format=%an <%ae> [%ai] 3f829218d466e585a7e256d76887ac2c2c55cf7a
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 1cbb830b83049873ae753994def7d15082886641
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 3f829218d466e585a7e256d76887ac2c2c55cf7a
+> git show -s --format=%an <%ae> [%ai] e5774dd852fa4f721ee7efd13d6380731584974e
+> git show -s --format=%an <%ae> [%ai] 4d1f89b6ae4cb113c79f1c505d2e53acf5c37794
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z e5774dd852fa4f721ee7efd13d6380731584974e
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 4d1f89b6ae4cb113c79f1c505d2e53acf5c37794
+> git show -s --format=%an <%ae> [%ai] 6489e43b3cfe76da9340d96a078303ca4049492f
+> git show -s --format=%an <%ae> [%ai] 7259d5ff3a3bfbb85b3980c8ee49c2f4ef056daa
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 6489e43b3cfe76da9340d96a078303ca4049492f
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 7259d5ff3a3bfbb85b3980c8ee49c2f4ef056daa
+> git show -s --format=%an <%ae> [%ai] 363b0252ce564e7d444212b515b961c28b78d2b2
+> git show -s --format=%an <%ae> [%ai] a2762bb446c9554a9797f9ed8db68bba1ebd8f9f
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 363b0252ce564e7d444212b515b961c28b78d2b2
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z a2762bb446c9554a9797f9ed8db68bba1ebd8f9f
+> git show -s --format=%an <%ae> [%ai] 07ca54b9940c85b5534ed2dc2e823adc0a641607
+> git show -s --format=%an <%ae> [%ai] 770870a0c3376c767cfd1394a170b1c6dc0fe6fb
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 07ca54b9940c85b5534ed2dc2e823adc0a641607
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 770870a0c3376c767cfd1394a170b1c6dc0fe6fb
+> git show -s --format=%an <%ae> [%ai] e06ee29a0f395ec8065f80af0be7dff5aaa82371
+> git show -s --format=%an <%ae> [%ai] ddbdac1f646a824b022867e5a91da538514c8b87
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z e06ee29a0f395ec8065f80af0be7dff5aaa82371
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z ddbdac1f646a824b022867e5a91da538514c8b87
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_high_res_off_to_docs
+> git rev-parse --symbolic-full-name NealKaviratna/add_high_res_off_to_docs@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_high_res_off_to_docs
+> git rev-parse --symbolic-full-name NealKaviratna/add_high_res_off_to_docs@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :atg/simulation/sensor/docs/index.md
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/sensor/docs/index.md
+> git cat-file -s 38788c5708b9eec4191371d3c1dfde9872de2b7d
+> git check-ignore -v -z --stdin
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/sensor/docs/index.md
+> git cat-file -s 38788c5708b9eec4191371d3c1dfde9872de2b7d
+> git show :atg/simulation/sensor/docs/index.md
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_high_res_off_to_docs
+> git rev-parse --symbolic-full-name NealKaviratna/add_high_res_off_to_docs@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/nkaviratna/na/atg/simulation/sensor/docs/index.md
+> git cat-file -s 38788c5708b9eec4191371d3c1dfde9872de2b7d
+> git show :atg/simulation/sensor/docs/index.md
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_high_res_off_to_docs
+> git rev-parse --symbolic-full-name NealKaviratna/add_high_res_off_to_docs@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_high_res_off_to_docs
+> git rev-parse --symbolic-full-name NealKaviratna/add_high_res_off_to_docs@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_high_res_off_to_docs
+> git rev-parse --symbolic-full-name NealKaviratna/add_high_res_off_to_docs@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_high_res_off_to_docs
+> git rev-parse --symbolic-full-name NealKaviratna/add_high_res_off_to_docs@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse NealKaviratna/add_high_res_off_to_docs
+> git rev-parse --symbolic-full-name NealKaviratna/add_high_res_off_to_docs@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
