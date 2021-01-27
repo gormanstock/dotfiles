@@ -14,8 +14,8 @@ RUN sudo apt-get install tmux -y
 
 # clone dotfiles
 RUN git clone https://github.com/NealKaviratna/dotfiles.git /home/gitpod/.dotfiles
-RUN cd /home/gitpod/.dotfiles && git rev-parse HEAD
-# RUN cd /home/gitpod/.dotfiles && git submodule update --init --recursive
+RUN cd /home/gitpod/.dotfiles && git reset HEAD . && git checkout -- .
+RUN cd /home/gitpod/.dotfiles && git submodule update --init --recursive
 
 # symlinks
 # RUN ln ~/.dotfiles/zshrc /home/gitpod/.zprezto/runcoms/zshrc -s && ls /home/gitpod/.zprezto/runcoms/zshrc -lsa
