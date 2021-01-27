@@ -18,7 +18,7 @@ RUN cd /home/gitpod/.dotfiles && git reset HEAD . && git checkout -- . && git su
 
 # symlinks
 RUN ln ~/.dotfiles/zprezto ~/.zprezto -s -b && ls ~/.zprezto -lsa
-RUN ln ~/.dotfiles/zshrc /home/gitpod/.zprezto/runcoms/zshrc -s && ls /home/gitpod/.zprezto/runcoms/zshrc -lsa
+RUN ln ~/.dotfiles/zshrc /home/gitpod/.zprezto/runcoms/zshrc -s -b && ls /home/gitpod/.zprezto/runcoms/zshrc -lsa
 RUN ln ~/.dotfiles/zshrc ~/.zshrc -s -b && ls ~/.zshrc -lsa
 RUN ln ~/.dotfiles/zsh ~/.zsh -s -b && ls ~/.zsh -lsa
 RUN ln ~/.dotfiles/bashrc ~/.bashrc -s -b && ls ~/.bashrc -lsa
