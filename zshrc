@@ -34,17 +34,6 @@ compinit
 # show completion menu when number of options is at least 2
 zstyle ':completion:*' menu select=2
 #----------------------------------------------------------
-# hdfs / uber settings
-
-export HADOOP_INSTALL=~/Programs/hadoop-2.8.1
-export UBER_LDAP_UID="nkaviratna"
-export UBER_OWNER="nkaviratna@uber.com"                                   
-export UBER_HOME="/home/nkaviratna/uber"
-export PATH=$PATH:$HADOOP_INSTALL/bin
-export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
-
-export ATC_SSH_AUTH_SOCK_CHECK=0
-export LINT_TIMEOUT=0
 
 export HISTSIZE=10000
 export HISEFILESIZE=10000
