@@ -38,3 +38,6 @@ zstyle ':completion:*' menu select=2
 export HISTSIZE=10000
 export HISEFILESIZE=10000
 export PATH=/home/nkaviratna/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/nkaviratna/Programs/hadoop-2.8.1/bin:/home/nkaviratna/Programs/hadoop-2.8.1/bin:/home/nkaviratna/bin:$JAVA_HOME/bin
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change. (From gitpod)
+export PATH="$PATH:$HOME/.rvm/bin"
