@@ -41,3 +41,5 @@ export PATH=/home/nkaviratna/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change. (From gitpod)
 export PATH="$PATH:$HOME/.rvm/bin"
+
+eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
