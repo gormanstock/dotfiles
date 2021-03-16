@@ -43,3 +43,4 @@ export PATH=/home/nkaviratna/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin
 export PATH="$PATH:$HOME/.rvm/bin"
 
 eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+export JAVA_HOME=/home/linuxbrew/.linuxbrew
