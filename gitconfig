@@ -30,8 +30,10 @@
 	cane = commit --amend --no-edit
 	cod = checkout `branch --contains HEAD --no-merged | head -1`
 	fcs = diff --name-only
+        us = submodule update --recursive --remote
+        updatesubmodules = submodule update --recursive --remote
 [credential]
-        helper = /usr/bin/gp credential-helper
+	helper = /usr/bin/gp credential-helper
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
