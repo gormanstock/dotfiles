@@ -49,4 +49,5 @@ export JAVA_HOME=/home/linuxbrew/.linuxbrew
 
 aws eks --region us-east-2 update-kubeconfig --name ot-dev-eks
 aws eks --region us-east-2 update-kubeconfig --name ot-demo-eks
+aws eks --region us-east-2 update-kubeconfig --name ot-prod-eks
 export CODEARTIFACT_AUTH_TOKEN=`aws codeartifact get-authorization-token --domain ottertune --domain-owner 691523222388 --query authorizationToken --output text`
