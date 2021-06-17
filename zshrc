@@ -21,6 +21,8 @@ fi
 # non git aliases
 alias goodnight="git checkout master && git pull && arc cascade && ./rops build all"
 alias sai="EDITOR=nano ./tools/bonsai"
+alias k="kubectl"
+alias tf="terraform"
 
 #----------------------------------------------------------
 # COMPLETION SETTINGS
