@@ -23,6 +23,7 @@ alias goodnight="git checkout master && git pull && arc cascade && ./rops build 
 alias sai="EDITOR=nano ./tools/bonsai"
 alias k="kubectl"
 alias tf="terraform"
+alias awsk8="aws eks --region us-east-2 update-kubeconfig --name"
 
 #----------------------------------------------------------
 # COMPLETION SETTINGS
