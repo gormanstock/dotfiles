@@ -24,6 +24,7 @@ alias sai="EDITOR=nano ./tools/bonsai"
 alias k="kubectl"
 alias tf="terraform"
 alias awsk8="aws eks --region us-east-2 update-kubeconfig --name"
+alias okta="flatpak run com.okta.developer.CLI"
 
 #----------------------------------------------------------
 # COMPLETION SETTINGS
