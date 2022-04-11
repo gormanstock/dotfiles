@@ -24,6 +24,7 @@ alias sai="EDITOR=nano ./tools/bonsai"
 alias k="kubectl"
 alias tf="terraform"
 alias awsk8="aws eks --region us-east-2 update-kubeconfig --name"
+alias calogin="aws codeartifact login --repository pypi-store --domain ottertune --tool"
 
 #----------------------------------------------------------
 # COMPLETION SETTINGS
