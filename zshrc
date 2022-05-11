@@ -30,6 +30,9 @@ alias models="cd /workspace/gitpod-dev-environment/models"
 alias gitcommands="git config --list --show-origin"
 alias updatedotfiles="cd ~/.dotfiles && git pull"
 alias calogin="aws codeartifact login --repository pypi-store --domain ottertune --tool"
+alias zshrc="gp open ~/.dotfiles/zshrc"
+alias dotfiles="cd ~/.dotfiles"
+alias work="cd /workspace/gitpod-dev-environment"
 
 #----------------------------------------------------------
 # COMPLETION SETTINGS
