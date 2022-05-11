@@ -19,11 +19,17 @@ fi
 # Customize to your needs...
 
 # non git aliases
-alias goodnight="git checkout master && git pull && arc cascade && ./rops build all"
-alias sai="EDITOR=nano ./tools/bonsai"
 alias k="kubectl"
 alias tf="terraform"
 alias awsk8="aws eks --region us-east-2 update-kubeconfig --name"
+alias calogin="aws codeartifact login --tool pip --repository pypi-store --domain ottertune --domain-owner 691523222388"
+alias service="cd /workspace/gitpod-dev-environment/service"
+alias frontend="cd /workspace/gitpod-dev-environment/service/frontend"
+alias backend="cd /workspace/gitpod-dev-environment/service/backend"
+alias compute-service="cd /workspace/gitpod-dev-environment/compute-service"
+alias models="cd /workspace/gitpod-dev-environment/models"
+alias gitcommands="git config --list --show-origin"
+alias updatedotfiles="cd ~/.dotfiles && git pull"
 
 #----------------------------------------------------------
 # COMPLETION SETTINGS
@@ -40,7 +46,6 @@ zstyle ':completion:*' menu select=2
 
 export HISTSIZE=10000
 export HISEFILESIZE=10000
-export PATH=/home/nkaviratna/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/nkaviratna/Programs/hadoop-2.8.1/bin:/home/nkaviratna/Programs/hadoop-2.8.1/bin:/home/nkaviratna/bin:$JAVA_HOME/bin
 
 export PATH=/ide/bin:$PATH
 
