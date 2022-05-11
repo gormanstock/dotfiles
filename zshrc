@@ -22,7 +22,6 @@ fi
 alias k="kubectl"
 alias tf="terraform"
 alias awsk8="aws eks --region us-east-2 update-kubeconfig --name"
-alias calogin="aws codeartifact login --tool pip --repository pypi-store --domain ottertune --domain-owner 691523222388"
 alias service="cd /workspace/gitpod-dev-environment/service"
 alias frontend="cd /workspace/gitpod-dev-environment/service/frontend"
 alias backend="cd /workspace/gitpod-dev-environment/service/backend"
@@ -30,6 +29,7 @@ alias compute-service="cd /workspace/gitpod-dev-environment/compute-service"
 alias models="cd /workspace/gitpod-dev-environment/models"
 alias gitcommands="git config --list --show-origin"
 alias updatedotfiles="cd ~/.dotfiles && git pull"
+alias calogin="aws codeartifact login --repository pypi-store --domain ottertune --tool"
 
 #----------------------------------------------------------
 # COMPLETION SETTINGS
