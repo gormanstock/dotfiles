@@ -50,6 +50,7 @@ zstyle ':completion:*' menu select=2
 
 export HISTSIZE=10000
 export HISEFILESIZE=10000
+export HISTFILE=/workspace/.zhistory
 
 export PATH=/ide/bin:$PATH
 
