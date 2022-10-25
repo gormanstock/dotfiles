@@ -19,6 +19,7 @@ fi
 # Customize to your needs...
 
 # non git aliases
+alias b="cd -"
 alias k="kubectl"
 alias tf="terraform"
 alias awsk8="aws eks --region us-east-2 update-kubeconfig --name"
