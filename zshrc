@@ -20,6 +20,7 @@ fi
 
 # non git aliases
 alias b="cd -"
+alias home="cd /workspace/gitpod-dev-environment"
 alias k="kubectl"
 alias tf="terraform"
 alias awsk8="aws eks --region us-east-2 update-kubeconfig --name"
