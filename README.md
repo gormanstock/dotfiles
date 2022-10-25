@@ -28,3 +28,7 @@ Either follow the install guide below, or use the dockerfile to create an image 
 - ln ~/.dotfiles/gitconfig ~/.gitconfig -s -b && ls ~/.gitconfig -lsa
 - ln ~/.dotfiles/zpreztorc ~/.zpreztorc -s -b && ls ~/.zpreztorc -lsa
 - ln ~/.dotfiles/tmux.conf ~/.tmux.conf -s -b && ls ~/.tmux.conf -lsa
+
+# Gorman's Fork
+
+small aliases I like
