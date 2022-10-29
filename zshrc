@@ -19,7 +19,7 @@ fi
 # Customize to your needs...
 
 # non git aliases
-alias b="cd -"
+alias back="cd -"
 alias home="cd /workspace/gitpod-dev-environment"
 alias k="kubectl"
 alias tf="terraform"
