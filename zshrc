@@ -36,7 +36,7 @@ alias zshrc="gp open ~/.dotfiles/zshrc"
 alias dotfiles="cd ~/.dotfiles"
 alias work="cd /workspace/gitpod-dev-environment"
 alias req="pip install -r requirements.txt"
-alais nodoze="gp timeout extend"
+alias nodoze="gp timeout extend"
 
 #----------------------------------------------------------
 # COMPLETION SETTINGS
