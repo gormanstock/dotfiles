@@ -19,6 +19,9 @@ fi
 # Customize to your needs...
 
 # non git aliases
+alias deepclean="docker system prune --all"
+alias o = "gp open"
+alias stop = "gp stop"
 alias back="cd -"
 alias home="cd /workspace/gitpod-dev-environment"
 alias k="kubectl"
