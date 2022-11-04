@@ -20,7 +20,7 @@ fi
 
 # non git aliases
 alias deepclean="docker system prune --all"
-alias o = "gp open"
+alias open = "gp open"
 alias stop = "gp stop"
 alias back="cd -"
 alias home="cd /workspace/gitpod-dev-environment"
