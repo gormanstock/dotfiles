@@ -19,7 +19,6 @@ fi
 # Customize to your needs...
 
 # non git aliases
-alias dotfiles="cd ~/.dotfiles && git pull && cd -"
 alias deepclean="docker system prune --all"
 alias open="gp open"
 alias stop="gp stop"
