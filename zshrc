@@ -21,8 +21,8 @@ fi
 # non git aliases
 alias dotfiles="cd ~/.dotfiles && git pull && cd -"
 alias deepclean="docker system prune --all"
-alias open = "gp open"
-alias stop = "gp stop"
+alias open="gp open"
+alias stop="gp stop"
 alias back="cd -"
 alias home="cd /workspace/gitpod-dev-environment"
 alias k="kubectl"
