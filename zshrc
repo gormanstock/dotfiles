@@ -22,6 +22,7 @@ fi
 alias ga="git add"
 alias gr="git restore"
 alias gc="git commit -m"
+alias gp="git push"
 alias deepclean="docker system prune --all"
 alias open="gp open"
 alias stop="gp stop"
