@@ -19,6 +19,9 @@ fi
 # Customize to your needs...
 
 # non git aliases
+alias ga="git add"
+alias gr="git restore"
+alias gc="git commit -m"
 alias deepclean="docker system prune --all"
 alias open="gp open"
 alias stop="gp stop"
