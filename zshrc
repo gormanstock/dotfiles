@@ -73,4 +73,6 @@ export JAVA_HOME=/home/linuxbrew/.linuxbrew
 export CODEARTIFACT_AUTH_TOKEN=`aws codeartifact get-authorization-token --domain ottertune --domain-owner 691523222388 --query authorizationToken --output text`
 export REACT_APP_API_BASE=`gp url 8000`
 export REACT_APP_STATIC_IMAGE_BASE=`gp url 8000`/static/
+export VITE_API_BASE=`gp url 8000`
+export VITE_STATIC_IMAGE_BASE=`gp url 8000`/static/
 export ALLOWED_HOSTS=".gitpod.io"
