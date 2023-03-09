@@ -171,13 +171,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-### UberATC - Source Global Environment ##############################################
-
-# Source global environment variables, and aliases
-for bashrc_file in /etc/uberatc/bashrc.d/*.bashrc; do
-source ${bashrc_file}
-done
-
 # Place your own environment variables, aliases, customizations here
 # (you can "unset" a previous variable if needed)
 
