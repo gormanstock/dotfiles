@@ -76,3 +76,5 @@ export REACT_APP_STATIC_IMAGE_BASE=`gp url 8000`/static/
 export VITE_API_BASE=`gp url 8000`
 export VITE_STATIC_IMAGE_BASE=`gp url 8000`/static/
 export ALLOWED_HOSTS=".gitpod.io"
+export DISPLAY=:0
+test -v GITPOD_REPO_ROOT && gp-vncsession
