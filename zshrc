@@ -39,12 +39,22 @@ alias models="cd /workspace/gitpod-dev-environment/models"
 alias gitcommands="git config --list --show-origin"
 alias updatedotfiles="cd ~/.dotfiles && git nored && git pull"
 alias calogin="aws codeartifact login --repository pypi-store --domain ottertune --tool"
-alias zshrc="gp open ~/.dotfiles/zshrc"
+alias zsh{config,rc}="gp open ~/.dotfiles/zshrc"
+alias c="clear"
+alias x="exit"
 alias dotfiles="cd ~/.dotfiles"
 alias work="cd /workspace/gitpod-dev-environment"
 alias req="pip install -r requirements.txt"
 alias nodoze="gp timeout extend"
+alias h="history -10" # last 10 history commands
+alias hc="history -c" # clear history
+alias hg="history | grep " # +command
+alias ag="alias | grep "
 
+hash -d he_do_be_workin_tho="/workspace/gitpod-dev-environment"
+
+
+cd ~he_do_be_workin_tho
 #----------------------------------------------------------
 # COMPLETION SETTINGS
 # add custom completion scripts
