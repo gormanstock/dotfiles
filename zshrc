@@ -58,7 +58,6 @@ function hr {
 
 hash -d he_do_be_workin_tho="/workspace/gitpod-dev-environment"
 
-cd ~he_do_be_workin_tho
 #----------------------------------------------------------
 # COMPLETION SETTINGS
 # add custom completion scripts
