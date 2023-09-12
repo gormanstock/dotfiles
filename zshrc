@@ -52,8 +52,11 @@ alias hc="history -c" # clear history
 alias hg="history | grep " # +command
 alias ag="alias | grep "
 
-hash -d he_do_be_workin_tho="/workspace/gitpod-dev-environment"
+function hr {
+	print ${(l:COLUMNS::=:)}
+}
 
+hash -d he_do_be_workin_tho="/workspace/gitpod-dev-environment"
 
 cd ~he_do_be_workin_tho
 #----------------------------------------------------------
