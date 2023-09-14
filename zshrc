@@ -51,6 +51,7 @@ alias h="history -10" # last 10 history commands
 alias hc="history -c" # clear history
 alias hg="history | grep " # +command
 alias ag="alias | grep "
+alias shell-backend="k exec -it deployment/django-backend -n ot-dev-service -- bash"
 
 function hr {
 	print ${(l:COLUMNS::=:)}
