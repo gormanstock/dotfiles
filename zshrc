@@ -85,6 +85,10 @@ export PATH="$PATH:$HOME/.rvm/bin"
 eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 export JAVA_HOME=/home/linuxbrew/.linuxbrew
 
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
 export CODEARTIFACT_AUTH_TOKEN=`aws codeartifact get-authorization-token --domain ottertune --domain-owner 691523222388 --query authorizationToken --output text`
 export REACT_APP_API_BASE=`gp url 8000`
 export REACT_APP_STATIC_IMAGE_BASE=`gp url 8000`/static/
