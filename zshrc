@@ -11,11 +11,6 @@ __git_heads_remote() {}
 zstyle :completion::complete:git-checkout:argument-rest:headrefs command "git for-each-ref --format='%(refname)' refs/heads 2>/dev/null"
 zstyle :completion::complete:git-show:argument-rest:headrefs command "git for-each-ref --format='%(refname)' refs/heads 2>/dev/null"
 
-# Source Prezto.
-if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
-  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
-fi
-
 # Customize to your needs...
 
 # non git aliases
@@ -24,41 +19,20 @@ alias gr="git restore"
 alias gc="git commit -m"
 alias gd="git branch -D"
 alias deepclean="docker system prune --all"
-alias open="gp open"
-alias stop="gp stop"
 alias back="cd -"
-alias home="cd /workspace/gitpod-dev-environment"
-alias k="kubectl"
-alias tf="terraform"
-alias awsk8="aws eks --region us-east-2 update-kubeconfig --name"
-alias port-dev-backend="awsk8 ot-dev-eks && gp ports visibility 8000:public && k port-forward deployments/django-backend -n ot-dev-service 8000:8000"
-alias port-staging-backend="awsk8 ot-dev-eks && gp ports visibility 8000:public && k port-forward deployments/django-backend -n ot-staging-service 8000:8000"
-alias service="cd /workspace/gitpod-dev-environment/service"
-alias frontend="cd /workspace/gitpod-dev-environment/frontend"
-alias backend="cd /workspace/gitpod-dev-environment/service/backend"
-alias compute-service="cd /workspace/gitpod-dev-environment/compute-service"
-alias models="cd /workspace/gitpod-dev-environment/models"
 alias gitcommands="git config --list --show-origin"
-alias updatedotfiles="cd ~/.dotfiles && git nored && git pull"
-alias calogin="aws codeartifact login --repository pypi-store --domain ottertune --tool"
 alias zsh{config,rc}="gp open ~/.dotfiles/zshrc"
 alias c="clear"
 alias x="exit"
-alias dotfiles="cd ~/.dotfiles"
-alias work="cd /workspace/gitpod-dev-environment"
 alias req="python3 -m pip install -r requirements.txt"
-alias nodoze="gp timeout extend"
 alias h="history -10" # last 10 history commands
 alias hc="history -c" # clear history
 alias hg="history | grep " # +command
 alias ag="alias | grep "
-alias shell-backend="awsk8 ot-dev-eks && k exec -it deployment/django-backend -n ot-dev-service -- bash"
 
 function hr {
 	print ${(l:COLUMNS::=:)}
 }
-
-hash -d he_do_be_workin_tho="/workspace/gitpod-dev-environment"
 
 #----------------------------------------------------------
 # COMPLETION SETTINGS
@@ -84,16 +58,3 @@ export PATH="$PATH:$HOME/.rvm/bin"
 
 eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 export JAVA_HOME=/home/linuxbrew/.linuxbrew
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-export CODEARTIFACT_AUTH_TOKEN=`aws codeartifact get-authorization-token --domain ottertune --domain-owner 691523222388 --query authorizationToken --output text`
-export REACT_APP_API_BASE=`gp url 8000`
-export REACT_APP_STATIC_IMAGE_BASE=`gp url 8000`/static/
-export VITE_API_BASE=`gp url 8000`
-export VITE_STATIC_IMAGE_BASE=`gp url 8000`/static/
-export ALLOWED_HOSTS=".gitpod.io"
-export DISPLAY=:0
-test -v GITPOD_REPO_ROOT && gp-vncsession
